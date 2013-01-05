@@ -24,7 +24,6 @@
 		FAC17ADB16987628008A66A7 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC17ADA16987628008A66A7 /* second@2x.png */; };
 		FAC17ADE16987628008A66A7 /* FirstViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC17ADC16987628008A66A7 /* FirstViewController_iPhone.xib */; };
 		FAC17AE416987628008A66A7 /* SecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC17AE216987628008A66A7 /* SecondViewController_iPhone.xib */; };
-		FAC17AE716987628008A66A7 /* SecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC17AE516987628008A66A7 /* SecondViewController_iPad.xib */; };
 		FAC17AEF169883A6008A66A7 /* 161-calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC17AED169883A6008A66A7 /* 161-calculator.png */; };
 		FAC17AF0169883A6008A66A7 /* 161-calculator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC17AEE169883A6008A66A7 /* 161-calculator@2x.png */; };
 /* End PBXBuildFile section */
@@ -53,7 +52,6 @@
 		FAC17ADA16987628008A66A7 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		FAC17ADD16987628008A66A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController_iPhone.xib; sourceTree = "<group>"; };
 		FAC17AE316987628008A66A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController_iPhone.xib; sourceTree = "<group>"; };
-		FAC17AE616987628008A66A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController_iPad.xib; sourceTree = "<group>"; };
 		FAC17AED169883A6008A66A7 /* 161-calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "161-calculator.png"; sourceTree = "<group>"; };
 		FAC17AEE169883A6008A66A7 /* 161-calculator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "161-calculator@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,7 +112,6 @@
 				FAC17ADA16987628008A66A7 /* second@2x.png */,
 				FAC17ADC16987628008A66A7 /* FirstViewController_iPhone.xib */,
 				FAC17AE216987628008A66A7 /* SecondViewController_iPhone.xib */,
-				FAC17AE516987628008A66A7 /* SecondViewController_iPad.xib */,
 				FAC17AED169883A6008A66A7 /* 161-calculator.png */,
 				FAC17AEE169883A6008A66A7 /* 161-calculator@2x.png */,
 				FAC17ABD16987628008A66A7 /* Supporting Files */,
@@ -197,7 +194,6 @@
 				FAC17ADB16987628008A66A7 /* second@2x.png in Resources */,
 				FAC17ADE16987628008A66A7 /* FirstViewController_iPhone.xib in Resources */,
 				FAC17AE416987628008A66A7 /* SecondViewController_iPhone.xib in Resources */,
-				FAC17AE716987628008A66A7 /* SecondViewController_iPad.xib in Resources */,
 				FAC17AEF169883A6008A66A7 /* 161-calculator.png in Resources */,
 				FAC17AF0169883A6008A66A7 /* 161-calculator@2x.png in Resources */,
 			);
@@ -242,14 +238,6 @@
 				FAC17AE316987628008A66A7 /* en */,
 			);
 			name = SecondViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		FAC17AE516987628008A66A7 /* SecondViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FAC17AE616987628008A66A7 /* en */,
-			);
-			name = SecondViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
