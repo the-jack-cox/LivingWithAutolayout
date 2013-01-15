@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA19F93916A4E3A40075D07C /* 60-signpost.png in Resources */ = {isa = PBXBuildFile; fileRef = FA19F93716A4E3A40075D07C /* 60-signpost.png */; };
+		FA19F93A16A4E3A40075D07C /* 60-signpost@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA19F93816A4E3A40075D07C /* 60-signpost@2x.png */; };
 		FAC17AB716987628008A66A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC17AB616987628008A66A7 /* UIKit.framework */; };
 		FAC17AB916987628008A66A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC17AB816987628008A66A7 /* Foundation.framework */; };
 		FAC17ABB16987628008A66A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC17ABA16987628008A66A7 /* CoreGraphics.framework */; };
@@ -29,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA19F93716A4E3A40075D07C /* 60-signpost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "60-signpost.png"; sourceTree = "<group>"; };
+		FA19F93816A4E3A40075D07C /* 60-signpost@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "60-signpost@2x.png"; sourceTree = "<group>"; };
 		FAC17AB216987628008A66A7 /* LivingWithAutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LivingWithAutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC17AB616987628008A66A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FAC17AB816987628008A66A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -100,20 +104,15 @@
 		FAC17ABC16987628008A66A7 /* LivingWithAutoLayout */ = {
 			isa = PBXGroup;
 			children = (
+				FAC17AF11698C429008A66A7 /* images */,
 				FAC17AC516987628008A66A7 /* AppDelegate.h */,
 				FAC17AC616987628008A66A7 /* AppDelegate.m */,
 				FAC17ACE16987628008A66A7 /* FirstViewController.h */,
 				FAC17ACF16987628008A66A7 /* FirstViewController.m */,
-				FAC17AD116987628008A66A7 /* first.png */,
-				FAC17AD316987628008A66A7 /* first@2x.png */,
 				FAC17AD516987628008A66A7 /* SecondViewController.h */,
 				FAC17AD616987628008A66A7 /* SecondViewController.m */,
-				FAC17AD816987628008A66A7 /* second.png */,
-				FAC17ADA16987628008A66A7 /* second@2x.png */,
 				FAC17ADC16987628008A66A7 /* FirstViewController_iPhone.xib */,
 				FAC17AE216987628008A66A7 /* SecondViewController_iPhone.xib */,
-				FAC17AED169883A6008A66A7 /* 161-calculator.png */,
-				FAC17AEE169883A6008A66A7 /* 161-calculator@2x.png */,
 				FAC17ABD16987628008A66A7 /* Supporting Files */,
 			);
 			path = LivingWithAutoLayout;
@@ -131,6 +130,21 @@
 				FAC17ACC16987628008A66A7 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAC17AF11698C429008A66A7 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				FAC17AD116987628008A66A7 /* first.png */,
+				FAC17AD316987628008A66A7 /* first@2x.png */,
+				FAC17AD816987628008A66A7 /* second.png */,
+				FAC17ADA16987628008A66A7 /* second@2x.png */,
+				FA19F93716A4E3A40075D07C /* 60-signpost.png */,
+				FA19F93816A4E3A40075D07C /* 60-signpost@2x.png */,
+				FAC17AED169883A6008A66A7 /* 161-calculator.png */,
+				FAC17AEE169883A6008A66A7 /* 161-calculator@2x.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +210,8 @@
 				FAC17AE416987628008A66A7 /* SecondViewController_iPhone.xib in Resources */,
 				FAC17AEF169883A6008A66A7 /* 161-calculator.png in Resources */,
 				FAC17AF0169883A6008A66A7 /* 161-calculator@2x.png in Resources */,
+				FA19F93916A4E3A40075D07C /* 60-signpost.png in Resources */,
+				FA19F93A16A4E3A40075D07C /* 60-signpost@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +352,7 @@
 				FAC17AEC16987628008A66A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

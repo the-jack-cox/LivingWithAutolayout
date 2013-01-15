@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface SecondViewController : UIViewController {
+    
+    IBOutletCollection(UIButton) NSArray *buttons;
 
+}
 @end
