@@ -18,14 +18,14 @@
 		FAC17AC916987628008A66A7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC17AC816987628008A66A7 /* Default.png */; };
 		FAC17ACB16987628008A66A7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC17ACA16987628008A66A7 /* Default@2x.png */; };
 		FAC17ACD16987628008A66A7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC17ACC16987628008A66A7 /* Default-568h@2x.png */; };
-		FAC17AD016987628008A66A7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC17ACF16987628008A66A7 /* FirstViewController.m */; };
+		FAC17AD016987628008A66A7 /* IBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC17ACF16987628008A66A7 /* IBViewController.m */; };
 		FAC17AD216987628008A66A7 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC17AD116987628008A66A7 /* first.png */; };
 		FAC17AD416987628008A66A7 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC17AD316987628008A66A7 /* first@2x.png */; };
-		FAC17AD716987628008A66A7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC17AD616987628008A66A7 /* SecondViewController.m */; };
+		FAC17AD716987628008A66A7 /* BrevityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC17AD616987628008A66A7 /* BrevityViewController.m */; };
 		FAC17AD916987628008A66A7 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC17AD816987628008A66A7 /* second.png */; };
 		FAC17ADB16987628008A66A7 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC17ADA16987628008A66A7 /* second@2x.png */; };
-		FAC17ADE16987628008A66A7 /* FirstViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC17ADC16987628008A66A7 /* FirstViewController_iPhone.xib */; };
-		FAC17AE416987628008A66A7 /* SecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC17AE216987628008A66A7 /* SecondViewController_iPhone.xib */; };
+		FAC17ADE16987628008A66A7 /* IBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC17ADC16987628008A66A7 /* IBViewController.xib */; };
+		FAC17AE416987628008A66A7 /* BrevityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC17AE216987628008A66A7 /* BrevityViewController.xib */; };
 		FAC17AEF169883A6008A66A7 /* 161-calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC17AED169883A6008A66A7 /* 161-calculator.png */; };
 		FAC17AF0169883A6008A66A7 /* 161-calculator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC17AEE169883A6008A66A7 /* 161-calculator@2x.png */; };
 /* End PBXBuildFile section */
@@ -33,6 +33,7 @@
 /* Begin PBXFileReference section */
 		FA19F93716A4E3A40075D07C /* 60-signpost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "60-signpost.png"; sourceTree = "<group>"; };
 		FA19F93816A4E3A40075D07C /* 60-signpost@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "60-signpost@2x.png"; sourceTree = "<group>"; };
+		FA19F93C16A4EC9C0075D07C /* IBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBViewController.h; sourceTree = "<group>"; };
 		FAC17AB216987628008A66A7 /* LivingWithAutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LivingWithAutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC17AB616987628008A66A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FAC17AB816987628008A66A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -46,16 +47,15 @@
 		FAC17AC816987628008A66A7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		FAC17ACA16987628008A66A7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		FAC17ACC16987628008A66A7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		FAC17ACE16987628008A66A7 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		FAC17ACF16987628008A66A7 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		FAC17ACF16987628008A66A7 /* IBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBViewController.m; sourceTree = "<group>"; };
 		FAC17AD116987628008A66A7 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		FAC17AD316987628008A66A7 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		FAC17AD516987628008A66A7 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		FAC17AD616987628008A66A7 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		FAC17AD516987628008A66A7 /* BrevityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrevityViewController.h; sourceTree = "<group>"; };
+		FAC17AD616987628008A66A7 /* BrevityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrevityViewController.m; sourceTree = "<group>"; };
 		FAC17AD816987628008A66A7 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		FAC17ADA16987628008A66A7 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		FAC17ADD16987628008A66A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController_iPhone.xib; sourceTree = "<group>"; };
-		FAC17AE316987628008A66A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController_iPhone.xib; sourceTree = "<group>"; };
+		FAC17ADD16987628008A66A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/IBViewController.xib; sourceTree = "<group>"; };
+		FAC17AE316987628008A66A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BrevityViewController.xib; sourceTree = "<group>"; };
 		FAC17AED169883A6008A66A7 /* 161-calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "161-calculator.png"; sourceTree = "<group>"; };
 		FAC17AEE169883A6008A66A7 /* 161-calculator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "161-calculator@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -107,12 +107,12 @@
 				FAC17AF11698C429008A66A7 /* images */,
 				FAC17AC516987628008A66A7 /* AppDelegate.h */,
 				FAC17AC616987628008A66A7 /* AppDelegate.m */,
-				FAC17ACE16987628008A66A7 /* FirstViewController.h */,
-				FAC17ACF16987628008A66A7 /* FirstViewController.m */,
-				FAC17AD516987628008A66A7 /* SecondViewController.h */,
-				FAC17AD616987628008A66A7 /* SecondViewController.m */,
-				FAC17ADC16987628008A66A7 /* FirstViewController_iPhone.xib */,
-				FAC17AE216987628008A66A7 /* SecondViewController_iPhone.xib */,
+				FA19F93C16A4EC9C0075D07C /* IBViewController.h */,
+				FAC17ACF16987628008A66A7 /* IBViewController.m */,
+				FAC17AD516987628008A66A7 /* BrevityViewController.h */,
+				FAC17AD616987628008A66A7 /* BrevityViewController.m */,
+				FAC17ADC16987628008A66A7 /* IBViewController.xib */,
+				FAC17AE216987628008A66A7 /* BrevityViewController.xib */,
 				FAC17ABD16987628008A66A7 /* Supporting Files */,
 			);
 			path = LivingWithAutoLayout;
@@ -206,8 +206,8 @@
 				FAC17AD416987628008A66A7 /* first@2x.png in Resources */,
 				FAC17AD916987628008A66A7 /* second.png in Resources */,
 				FAC17ADB16987628008A66A7 /* second@2x.png in Resources */,
-				FAC17ADE16987628008A66A7 /* FirstViewController_iPhone.xib in Resources */,
-				FAC17AE416987628008A66A7 /* SecondViewController_iPhone.xib in Resources */,
+				FAC17ADE16987628008A66A7 /* IBViewController.xib in Resources */,
+				FAC17AE416987628008A66A7 /* BrevityViewController.xib in Resources */,
 				FAC17AEF169883A6008A66A7 /* 161-calculator.png in Resources */,
 				FAC17AF0169883A6008A66A7 /* 161-calculator@2x.png in Resources */,
 				FA19F93916A4E3A40075D07C /* 60-signpost.png in Resources */,
@@ -224,8 +224,8 @@
 			files = (
 				FAC17AC316987628008A66A7 /* main.m in Sources */,
 				FAC17AC716987628008A66A7 /* AppDelegate.m in Sources */,
-				FAC17AD016987628008A66A7 /* FirstViewController.m in Sources */,
-				FAC17AD716987628008A66A7 /* SecondViewController.m in Sources */,
+				FAC17AD016987628008A66A7 /* IBViewController.m in Sources */,
+				FAC17AD716987628008A66A7 /* BrevityViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,20 +240,20 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		FAC17ADC16987628008A66A7 /* FirstViewController_iPhone.xib */ = {
+		FAC17ADC16987628008A66A7 /* IBViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FAC17ADD16987628008A66A7 /* en */,
 			);
-			name = FirstViewController_iPhone.xib;
+			name = IBViewController.xib;
 			sourceTree = "<group>";
 		};
-		FAC17AE216987628008A66A7 /* SecondViewController_iPhone.xib */ = {
+		FAC17AE216987628008A66A7 /* BrevityViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FAC17AE316987628008A66A7 /* en */,
 			);
-			name = SecondViewController_iPhone.xib;
+			name = BrevityViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

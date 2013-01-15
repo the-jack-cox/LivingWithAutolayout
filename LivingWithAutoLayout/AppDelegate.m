@@ -8,9 +8,9 @@
 
 #import "AppDelegate.h"
 
-#import "FirstViewController.h"
+#import "IBViewController.h"
 
-#import "SecondViewController.h"
+#import "BrevityViewController.h"
 
 @implementation AppDelegate
 
@@ -20,8 +20,8 @@
     // Override point for customization after application launch.
     UIViewController *viewController1, *viewController2;
 
-    viewController1 = [[FirstViewController alloc] initWithNibName:@"FirstViewController_iPhone" bundle:nil];
-    viewController2 = [[SecondViewController alloc] initWithNibName:@"SecondViewController_iPhone" bundle:nil ];
+    viewController1 = [[IBViewController alloc] initWithNibName:@"IBViewController" bundle:nil];
+    viewController2 = [[BrevityViewController alloc] initWithNibName:@"BrevityViewController" bundle:nil ];
     
     self.tabBarController = [[UITabBarController alloc] init];
     self.tabBarController.viewControllers = @[viewController1, viewController2];

@@ -1,18 +1,18 @@
 //
-//  FirstViewController.m
+//  IBViewController.m
 //  LivingWithAutoLayout
 //
 //  Created by Jack Cox on 1/5/13.
 //  Copyright (c) 2013 CapTech Ventures, Inc. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "IBViewController.h"
 
-@interface FirstViewController ()
+@interface IBViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation IBViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -44,8 +44,8 @@
     
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
         UIView *senderView = (UIView *)sender;
-        FirstViewController *ctl = [[FirstViewController alloc]
-                                    initWithNibName:@"FirstViewController_iPhone"
+        IBViewController *ctl = [[IBViewController alloc]
+                                    initWithNibName:@"IBViewController"
                                     bundle:nil];
         
         _popover = [[UIPopoverController alloc] initWithContentViewController:ctl];
@@ -61,7 +61,7 @@
 
 - (IBAction)button1Pressed:(id)sender {
     
-    FirstViewController *ctl = [[FirstViewController alloc] initWithNibName:@"FirstViewController_iPhone" bundle:nil];
+    IBViewController *ctl = [[IBViewController alloc] initWithNibName:@"IBViewController" bundle:nil];
     
     ctl.modalPresentationStyle = UIModalPresentationFormSheet;
     

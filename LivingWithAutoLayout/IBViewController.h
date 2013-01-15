@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController {
+@interface IBViewController : UIViewController {
     
     UIPopoverController  *_popover;
 }
