@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		FA19F93916A4E3A40075D07C /* 60-signpost.png in Resources */ = {isa = PBXBuildFile; fileRef = FA19F93716A4E3A40075D07C /* 60-signpost.png */; };
 		FA19F93A16A4E3A40075D07C /* 60-signpost@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA19F93816A4E3A40075D07C /* 60-signpost@2x.png */; };
+		FA7EE1EF16AE280E009FE37C /* RelationShipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7EE1ED16AE280E009FE37C /* RelationShipViewController.m */; };
+		FA7EE1F016AE280E009FE37C /* RelationShipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7EE1EE16AE280E009FE37C /* RelationShipViewController.xib */; };
+		FA7EE1F316AE2F08009FE37C /* 76-baby.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7EE1F116AE2F08009FE37C /* 76-baby.png */; };
+		FA7EE1F416AE2F08009FE37C /* 76-baby@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7EE1F216AE2F08009FE37C /* 76-baby@2x.png */; };
+		FAAFC58216A62AC9009F26D7 /* CompositionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAFC58016A62AC9009F26D7 /* CompositionViewController.m */; };
+		FAAFC58316A62AC9009F26D7 /* CompositionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAAFC58116A62AC9009F26D7 /* CompositionViewController.xib */; };
+		FAAFC58716A62BCE009F26D7 /* 36-toolbox.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAFC58516A62BCE009F26D7 /* 36-toolbox.png */; };
+		FAAFC58816A62BCE009F26D7 /* 36-toolbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAFC58616A62BCE009F26D7 /* 36-toolbox@2x.png */; };
+		FAAFC58B16A62CC8009F26D7 /* UIView+ConstraintHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAFC58A16A62CC8009F26D7 /* UIView+ConstraintHelpers.m */; };
 		FAC17AB716987628008A66A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC17AB616987628008A66A7 /* UIKit.framework */; };
 		FAC17AB916987628008A66A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC17AB816987628008A66A7 /* Foundation.framework */; };
 		FAC17ABB16987628008A66A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC17ABA16987628008A66A7 /* CoreGraphics.framework */; };
@@ -34,6 +43,18 @@
 		FA19F93716A4E3A40075D07C /* 60-signpost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "60-signpost.png"; sourceTree = "<group>"; };
 		FA19F93816A4E3A40075D07C /* 60-signpost@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "60-signpost@2x.png"; sourceTree = "<group>"; };
 		FA19F93C16A4EC9C0075D07C /* IBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBViewController.h; sourceTree = "<group>"; };
+		FA7EE1EC16AE280E009FE37C /* RelationShipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelationShipViewController.h; sourceTree = "<group>"; };
+		FA7EE1ED16AE280E009FE37C /* RelationShipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelationShipViewController.m; sourceTree = "<group>"; };
+		FA7EE1EE16AE280E009FE37C /* RelationShipViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RelationShipViewController.xib; sourceTree = "<group>"; };
+		FA7EE1F116AE2F08009FE37C /* 76-baby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "76-baby.png"; sourceTree = "<group>"; };
+		FA7EE1F216AE2F08009FE37C /* 76-baby@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "76-baby@2x.png"; sourceTree = "<group>"; };
+		FAAFC57F16A62AC9009F26D7 /* CompositionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompositionViewController.h; sourceTree = "<group>"; };
+		FAAFC58016A62AC9009F26D7 /* CompositionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompositionViewController.m; sourceTree = "<group>"; };
+		FAAFC58116A62AC9009F26D7 /* CompositionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CompositionViewController.xib; sourceTree = "<group>"; };
+		FAAFC58516A62BCE009F26D7 /* 36-toolbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "36-toolbox.png"; sourceTree = "<group>"; };
+		FAAFC58616A62BCE009F26D7 /* 36-toolbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "36-toolbox@2x.png"; sourceTree = "<group>"; };
+		FAAFC58916A62CC8009F26D7 /* UIView+ConstraintHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ConstraintHelpers.h"; sourceTree = "<group>"; };
+		FAAFC58A16A62CC8009F26D7 /* UIView+ConstraintHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ConstraintHelpers.m"; sourceTree = "<group>"; };
 		FAC17AB216987628008A66A7 /* LivingWithAutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LivingWithAutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC17AB616987628008A66A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FAC17AB816987628008A66A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -109,10 +130,18 @@
 				FAC17AC616987628008A66A7 /* AppDelegate.m */,
 				FA19F93C16A4EC9C0075D07C /* IBViewController.h */,
 				FAC17ACF16987628008A66A7 /* IBViewController.m */,
+				FAC17ADC16987628008A66A7 /* IBViewController.xib */,
 				FAC17AD516987628008A66A7 /* BrevityViewController.h */,
 				FAC17AD616987628008A66A7 /* BrevityViewController.m */,
-				FAC17ADC16987628008A66A7 /* IBViewController.xib */,
 				FAC17AE216987628008A66A7 /* BrevityViewController.xib */,
+				FAAFC57F16A62AC9009F26D7 /* CompositionViewController.h */,
+				FAAFC58016A62AC9009F26D7 /* CompositionViewController.m */,
+				FAAFC58116A62AC9009F26D7 /* CompositionViewController.xib */,
+				FAAFC58916A62CC8009F26D7 /* UIView+ConstraintHelpers.h */,
+				FAAFC58A16A62CC8009F26D7 /* UIView+ConstraintHelpers.m */,
+				FA7EE1EC16AE280E009FE37C /* RelationShipViewController.h */,
+				FA7EE1ED16AE280E009FE37C /* RelationShipViewController.m */,
+				FA7EE1EE16AE280E009FE37C /* RelationShipViewController.xib */,
 				FAC17ABD16987628008A66A7 /* Supporting Files */,
 			);
 			path = LivingWithAutoLayout;
@@ -135,6 +164,10 @@
 		FAC17AF11698C429008A66A7 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				FA7EE1F116AE2F08009FE37C /* 76-baby.png */,
+				FA7EE1F216AE2F08009FE37C /* 76-baby@2x.png */,
+				FAAFC58516A62BCE009F26D7 /* 36-toolbox.png */,
+				FAAFC58616A62BCE009F26D7 /* 36-toolbox@2x.png */,
 				FAC17AD116987628008A66A7 /* first.png */,
 				FAC17AD316987628008A66A7 /* first@2x.png */,
 				FAC17AD816987628008A66A7 /* second.png */,
@@ -212,6 +245,12 @@
 				FAC17AF0169883A6008A66A7 /* 161-calculator@2x.png in Resources */,
 				FA19F93916A4E3A40075D07C /* 60-signpost.png in Resources */,
 				FA19F93A16A4E3A40075D07C /* 60-signpost@2x.png in Resources */,
+				FAAFC58316A62AC9009F26D7 /* CompositionViewController.xib in Resources */,
+				FAAFC58716A62BCE009F26D7 /* 36-toolbox.png in Resources */,
+				FAAFC58816A62BCE009F26D7 /* 36-toolbox@2x.png in Resources */,
+				FA7EE1F016AE280E009FE37C /* RelationShipViewController.xib in Resources */,
+				FA7EE1F316AE2F08009FE37C /* 76-baby.png in Resources */,
+				FA7EE1F416AE2F08009FE37C /* 76-baby@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +265,9 @@
 				FAC17AC716987628008A66A7 /* AppDelegate.m in Sources */,
 				FAC17AD016987628008A66A7 /* IBViewController.m in Sources */,
 				FAC17AD716987628008A66A7 /* BrevityViewController.m in Sources */,
+				FAAFC58216A62AC9009F26D7 /* CompositionViewController.m in Sources */,
+				FAAFC58B16A62CC8009F26D7 /* UIView+ConstraintHelpers.m in Sources */,
+				FA7EE1EF16AE280E009FE37C /* RelationShipViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

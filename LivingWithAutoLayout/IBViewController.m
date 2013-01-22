@@ -18,7 +18,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = NSLocalizedString(@"Keyboard", @"Keyboard View");
+        self.title = NSLocalizedString(@"IB", @"Keyboard View");
         self.tabBarItem.image = [UIImage imageNamed:@"161-calculator"];
     }
     return self;
