@@ -14,4 +14,7 @@
 
 @property (strong, nonatomic) UITabBarController *tabBarController;
 
+
+- (void)dumpAmbiguity;
+
 @end

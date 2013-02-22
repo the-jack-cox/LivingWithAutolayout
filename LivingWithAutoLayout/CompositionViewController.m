@@ -33,7 +33,7 @@
 {
     [super viewDidLoad];
     
-    BrevityViewController *keypadCtl = [[BrevityViewController alloc] initWithNibName:@"BrevityViewController" bundle:nil];
+    keypadCtl = [[BrevityViewController alloc] initWithNibName:@"BrevityViewController" bundle:nil];
     
     
     [keypadArea addSubview:keypadCtl.view];
@@ -47,4 +47,8 @@
 }
 
 
+- (IBAction)toggleFormat:(id)sender {
+    [keypadCtl toggleFormat];
+    
+}
 @end

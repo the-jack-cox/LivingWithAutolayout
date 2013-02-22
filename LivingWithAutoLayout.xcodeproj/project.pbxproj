@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA158FAB16B4160700C2D4F6 /* IBDemoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA158FAA16B4160700C2D4F6 /* IBDemoView.xib */; };
+		FA158FB016B417D400C2D4F6 /* VFLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA158FAE16B417D400C2D4F6 /* VFLViewController.m */; };
+		FA158FB116B417D400C2D4F6 /* VFLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA158FAF16B417D400C2D4F6 /* VFLViewController.xib */; };
+		FA158FB416B41D2300C2D4F6 /* 26-bandaid.png in Resources */ = {isa = PBXBuildFile; fileRef = FA158FB216B41D2300C2D4F6 /* 26-bandaid.png */; };
+		FA158FB516B41D2300C2D4F6 /* 26-bandaid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA158FB316B41D2300C2D4F6 /* 26-bandaid@2x.png */; };
+		FA158FB916B4255700C2D4F6 /* LayoutConstraintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA158FB716B4255700C2D4F6 /* LayoutConstraintViewController.m */; };
+		FA158FBA16B4255700C2D4F6 /* LayoutConstraintViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA158FB816B4255700C2D4F6 /* LayoutConstraintViewController.xib */; };
+		FA158FD516B4276400C2D4F6 /* 85-trophy.png in Resources */ = {isa = PBXBuildFile; fileRef = FA158FD316B4276400C2D4F6 /* 85-trophy.png */; };
+		FA158FD616B4276400C2D4F6 /* 85-trophy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA158FD416B4276400C2D4F6 /* 85-trophy@2x.png */; };
 		FA19F93916A4E3A40075D07C /* 60-signpost.png in Resources */ = {isa = PBXBuildFile; fileRef = FA19F93716A4E3A40075D07C /* 60-signpost.png */; };
 		FA19F93A16A4E3A40075D07C /* 60-signpost@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA19F93816A4E3A40075D07C /* 60-signpost@2x.png */; };
 		FA7EE1EF16AE280E009FE37C /* RelationShipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7EE1ED16AE280E009FE37C /* RelationShipViewController.m */; };
@@ -40,6 +49,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA158FAA16B4160700C2D4F6 /* IBDemoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IBDemoView.xib; sourceTree = "<group>"; };
+		FA158FAD16B417D400C2D4F6 /* VFLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFLViewController.h; sourceTree = "<group>"; };
+		FA158FAE16B417D400C2D4F6 /* VFLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFLViewController.m; sourceTree = "<group>"; };
+		FA158FAF16B417D400C2D4F6 /* VFLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VFLViewController.xib; sourceTree = "<group>"; };
+		FA158FB216B41D2300C2D4F6 /* 26-bandaid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "26-bandaid.png"; sourceTree = "<group>"; };
+		FA158FB316B41D2300C2D4F6 /* 26-bandaid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "26-bandaid@2x.png"; sourceTree = "<group>"; };
+		FA158FB616B4255700C2D4F6 /* LayoutConstraintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutConstraintViewController.h; sourceTree = "<group>"; };
+		FA158FB716B4255700C2D4F6 /* LayoutConstraintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutConstraintViewController.m; sourceTree = "<group>"; };
+		FA158FB816B4255700C2D4F6 /* LayoutConstraintViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LayoutConstraintViewController.xib; sourceTree = "<group>"; };
+		FA158FD316B4276400C2D4F6 /* 85-trophy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "85-trophy.png"; sourceTree = "<group>"; };
+		FA158FD416B4276400C2D4F6 /* 85-trophy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "85-trophy@2x.png"; sourceTree = "<group>"; };
 		FA19F93716A4E3A40075D07C /* 60-signpost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "60-signpost.png"; sourceTree = "<group>"; };
 		FA19F93816A4E3A40075D07C /* 60-signpost@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "60-signpost@2x.png"; sourceTree = "<group>"; };
 		FA19F93C16A4EC9C0075D07C /* IBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBViewController.h; sourceTree = "<group>"; };
@@ -128,6 +148,7 @@
 				FAC17AF11698C429008A66A7 /* images */,
 				FAC17AC516987628008A66A7 /* AppDelegate.h */,
 				FAC17AC616987628008A66A7 /* AppDelegate.m */,
+				FA158FAA16B4160700C2D4F6 /* IBDemoView.xib */,
 				FA19F93C16A4EC9C0075D07C /* IBViewController.h */,
 				FAC17ACF16987628008A66A7 /* IBViewController.m */,
 				FAC17ADC16987628008A66A7 /* IBViewController.xib */,
@@ -142,7 +163,13 @@
 				FA7EE1EC16AE280E009FE37C /* RelationShipViewController.h */,
 				FA7EE1ED16AE280E009FE37C /* RelationShipViewController.m */,
 				FA7EE1EE16AE280E009FE37C /* RelationShipViewController.xib */,
+				FA158FAD16B417D400C2D4F6 /* VFLViewController.h */,
+				FA158FAE16B417D400C2D4F6 /* VFLViewController.m */,
+				FA158FAF16B417D400C2D4F6 /* VFLViewController.xib */,
 				FAC17ABD16987628008A66A7 /* Supporting Files */,
+				FA158FB616B4255700C2D4F6 /* LayoutConstraintViewController.h */,
+				FA158FB716B4255700C2D4F6 /* LayoutConstraintViewController.m */,
+				FA158FB816B4255700C2D4F6 /* LayoutConstraintViewController.xib */,
 			);
 			path = LivingWithAutoLayout;
 			sourceTree = "<group>";
@@ -176,6 +203,10 @@
 				FA19F93816A4E3A40075D07C /* 60-signpost@2x.png */,
 				FAC17AED169883A6008A66A7 /* 161-calculator.png */,
 				FAC17AEE169883A6008A66A7 /* 161-calculator@2x.png */,
+				FA158FB216B41D2300C2D4F6 /* 26-bandaid.png */,
+				FA158FB316B41D2300C2D4F6 /* 26-bandaid@2x.png */,
+				FA158FD316B4276400C2D4F6 /* 85-trophy.png */,
+				FA158FD416B4276400C2D4F6 /* 85-trophy@2x.png */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -251,6 +282,13 @@
 				FA7EE1F016AE280E009FE37C /* RelationShipViewController.xib in Resources */,
 				FA7EE1F316AE2F08009FE37C /* 76-baby.png in Resources */,
 				FA7EE1F416AE2F08009FE37C /* 76-baby@2x.png in Resources */,
+				FA158FAB16B4160700C2D4F6 /* IBDemoView.xib in Resources */,
+				FA158FB116B417D400C2D4F6 /* VFLViewController.xib in Resources */,
+				FA158FB416B41D2300C2D4F6 /* 26-bandaid.png in Resources */,
+				FA158FB516B41D2300C2D4F6 /* 26-bandaid@2x.png in Resources */,
+				FA158FBA16B4255700C2D4F6 /* LayoutConstraintViewController.xib in Resources */,
+				FA158FD516B4276400C2D4F6 /* 85-trophy.png in Resources */,
+				FA158FD616B4276400C2D4F6 /* 85-trophy@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +306,8 @@
 				FAAFC58216A62AC9009F26D7 /* CompositionViewController.m in Sources */,
 				FAAFC58B16A62CC8009F26D7 /* UIView+ConstraintHelpers.m in Sources */,
 				FA7EE1EF16AE280E009FE37C /* RelationShipViewController.m in Sources */,
+				FA158FB016B417D400C2D4F6 /* VFLViewController.m in Sources */,
+				FA158FB916B4255700C2D4F6 /* LayoutConstraintViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

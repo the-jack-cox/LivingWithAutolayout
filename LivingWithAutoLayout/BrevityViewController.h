@@ -11,6 +11,13 @@
 @interface BrevityViewController : UIViewController {
     
     IBOutletCollection(UIButton) NSArray *buttons;
-
+    NSMutableDictionary *buttonNames;
+    
+    BOOL        calcFormat;
+    
 }
+- (void) toggleFormat;
+- (void) makeCalculatorFormat;
+- (void) makePhoneFormat;
+
 @end
