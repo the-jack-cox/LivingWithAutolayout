@@ -103,12 +103,13 @@
 }
 
 - (void) toggleFormat {
-    if (calcFormat) {
-        [self makePhoneFormat];
-    } else {
-        [self makeCalculatorFormat];
-    }
+    
     [UIView animateWithDuration:0.5 animations:^{
+        if (calcFormat) {
+            [self makePhoneFormat];
+        } else {
+            [self makeCalculatorFormat];
+        }
         [self.view layoutIfNeeded];
     }];
 }

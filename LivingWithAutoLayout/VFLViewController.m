@@ -62,19 +62,19 @@
     
     
     // Bad one, leads to problems:
-    [buttonAreaView addConstraints:
-     [NSLayoutConstraint constraintsWithVisualFormat:@"|-(10)-[button1(150)][button2(150)]-(10)-|"
-                                             options:NSLayoutFormatDirectionLeftToRight
-                                             metrics:nil
-                                               views:views]];
+//    [buttonAreaView addConstraints:
+//     [NSLayoutConstraint constraintsWithVisualFormat:@"|-(10)-[button1(150)][button2(150)]-(10)-|"
+//                                             options:NSLayoutFormatDirectionLeftToRight
+//                                             metrics:nil
+//                                               views:views]];
     
     // setup constraints for the buttons
     // remove ==button1 to introduce ambiguity
-//    [buttonAreaView addConstraints:
-//     [NSLayoutConstraint constraintsWithVisualFormat:@"|-[button1]-[button2(==button1)]-|"
-//                                             options:NSLayoutFormatDirectionLeftToRight
-//                                             metrics:nil
-//                                            views:views]];
+    [buttonAreaView addConstraints:
+     [NSLayoutConstraint constraintsWithVisualFormat:@"|-[button1]-[button2(==button1)]-|"
+                                             options:NSLayoutFormatDirectionLeftToRight
+                                             metrics:nil
+                                            views:views]];
     
     [buttonAreaView addConstraints:
     [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-[button1]-|"
