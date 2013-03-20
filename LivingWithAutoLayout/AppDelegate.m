@@ -16,6 +16,7 @@
 #import "RelationShipViewController.h"
 #import "VFLViewController.h"
 #import "LayoutConstraintViewController.h"
+#import "Relationship2ViewController.h"
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -30,6 +31,7 @@
     [[BrevityViewController alloc] initWithNibName:@"BrevityViewController" bundle:nil ],
     [[IBViewController alloc] initWithNibName:@"IBViewController" bundle:nil],
     [[RelationShipViewController alloc] initWithNibName:@"RelationShipViewController" bundle:nil],
+    [[Relationship2ViewController alloc] initWithNibName:@"Relationship2ViewController" bundle:nil],
     [[CompositionViewController alloc] initWithNibName:@"CompositionViewController" bundle:nil]
     ];
     self.window.rootViewController = self.tabBarController;

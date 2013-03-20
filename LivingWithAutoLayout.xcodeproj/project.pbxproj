@@ -22,6 +22,8 @@
 		FA7EE1F016AE280E009FE37C /* RelationShipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7EE1EE16AE280E009FE37C /* RelationShipViewController.xib */; };
 		FA7EE1F316AE2F08009FE37C /* 76-baby.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7EE1F116AE2F08009FE37C /* 76-baby.png */; };
 		FA7EE1F416AE2F08009FE37C /* 76-baby@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7EE1F216AE2F08009FE37C /* 76-baby@2x.png */; };
+		FAAA895D16F9A95000B597BE /* Relationship2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAA895B16F9A95000B597BE /* Relationship2ViewController.m */; };
+		FAAA895E16F9A95000B597BE /* Relationship2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAAA895C16F9A95000B597BE /* Relationship2ViewController.xib */; };
 		FAAFC58216A62AC9009F26D7 /* CompositionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAFC58016A62AC9009F26D7 /* CompositionViewController.m */; };
 		FAAFC58316A62AC9009F26D7 /* CompositionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAAFC58116A62AC9009F26D7 /* CompositionViewController.xib */; };
 		FAAFC58716A62BCE009F26D7 /* 36-toolbox.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAFC58516A62BCE009F26D7 /* 36-toolbox.png */; };
@@ -68,6 +70,9 @@
 		FA7EE1EE16AE280E009FE37C /* RelationShipViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RelationShipViewController.xib; sourceTree = "<group>"; };
 		FA7EE1F116AE2F08009FE37C /* 76-baby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "76-baby.png"; sourceTree = "<group>"; };
 		FA7EE1F216AE2F08009FE37C /* 76-baby@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "76-baby@2x.png"; sourceTree = "<group>"; };
+		FAAA895A16F9A95000B597BE /* Relationship2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Relationship2ViewController.h; sourceTree = "<group>"; };
+		FAAA895B16F9A95000B597BE /* Relationship2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Relationship2ViewController.m; sourceTree = "<group>"; };
+		FAAA895C16F9A95000B597BE /* Relationship2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Relationship2ViewController.xib; sourceTree = "<group>"; };
 		FAAFC57F16A62AC9009F26D7 /* CompositionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompositionViewController.h; sourceTree = "<group>"; };
 		FAAFC58016A62AC9009F26D7 /* CompositionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompositionViewController.m; sourceTree = "<group>"; };
 		FAAFC58116A62AC9009F26D7 /* CompositionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CompositionViewController.xib; sourceTree = "<group>"; };
@@ -164,6 +169,9 @@
 				FA7EE1EC16AE280E009FE37C /* RelationShipViewController.h */,
 				FA7EE1ED16AE280E009FE37C /* RelationShipViewController.m */,
 				FA7EE1EE16AE280E009FE37C /* RelationShipViewController.xib */,
+				FAAA895A16F9A95000B597BE /* Relationship2ViewController.h */,
+				FAAA895B16F9A95000B597BE /* Relationship2ViewController.m */,
+				FAAA895C16F9A95000B597BE /* Relationship2ViewController.xib */,
 				FAAFC58916A62CC8009F26D7 /* UIView+ConstraintHelpers.h */,
 				FAAFC58A16A62CC8009F26D7 /* UIView+ConstraintHelpers.m */,
 				FA158FAD16B417D400C2D4F6 /* VFLViewController.h */,
@@ -289,6 +297,7 @@
 				FA158FBA16B4255700C2D4F6 /* LayoutConstraintViewController.xib in Resources */,
 				FA158FD516B4276400C2D4F6 /* 85-trophy.png in Resources */,
 				FA158FD616B4276400C2D4F6 /* 85-trophy@2x.png in Resources */,
+				FAAA895E16F9A95000B597BE /* Relationship2ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +317,7 @@
 				FA7EE1EF16AE280E009FE37C /* RelationShipViewController.m in Sources */,
 				FA158FB016B417D400C2D4F6 /* VFLViewController.m in Sources */,
 				FA158FB916B4255700C2D4F6 /* LayoutConstraintViewController.m in Sources */,
+				FAAA895D16F9A95000B597BE /* Relationship2ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
