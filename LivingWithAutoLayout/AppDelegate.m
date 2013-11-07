@@ -17,6 +17,8 @@
 #import "VFLViewController.h"
 #import "LayoutConstraintViewController.h"
 #import "Relationship2ViewController.h"
+#import "KeypadXC5ViewController.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -28,12 +30,15 @@
     self.tabBarController.viewControllers = @[
     [[VFLViewController alloc] initWithNibName:@"VFLViewController" bundle:nil],
     [[LayoutConstraintViewController alloc] initWithNibName:@"LayoutConstraintViewController" bundle:nil],
+    [[KeypadXC5ViewController alloc] initWithNibName:@"KeypadXC5ViewController" bundle:nil],
     [[BrevityViewController alloc] initWithNibName:@"BrevityViewController" bundle:nil ],
     [[IBViewController alloc] initWithNibName:@"IBViewController" bundle:nil],
     [[RelationShipViewController alloc] initWithNibName:@"RelationShipViewController" bundle:nil],
     [[Relationship2ViewController alloc] initWithNibName:@"Relationship2ViewController" bundle:nil],
     [[CompositionViewController alloc] initWithNibName:@"CompositionViewController" bundle:nil]
+    
     ];
+    
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     return YES;

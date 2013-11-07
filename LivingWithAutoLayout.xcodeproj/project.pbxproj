@@ -18,6 +18,15 @@
 		FA158FD616B4276400C2D4F6 /* 85-trophy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA158FD416B4276400C2D4F6 /* 85-trophy@2x.png */; };
 		FA19F93916A4E3A40075D07C /* 60-signpost.png in Resources */ = {isa = PBXBuildFile; fileRef = FA19F93716A4E3A40075D07C /* 60-signpost.png */; };
 		FA19F93A16A4E3A40075D07C /* 60-signpost@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA19F93816A4E3A40075D07C /* 60-signpost@2x.png */; };
+		FA2DEBE91804707A0087D4D9 /* RatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2DEBE71804707A0087D4D9 /* RatesViewController.m */; };
+		FA2DEBEA1804707A0087D4D9 /* RatesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA2DEBE81804707A0087D4D9 /* RatesViewController.xib */; };
+		FA73EC6D17C16AC50096F706 /* KeypadXC5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA73EC6B17C16AC50096F706 /* KeypadXC5ViewController.m */; };
+		FA73EC6E17C16AC50096F706 /* KeypadXC5ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA73EC6C17C16AC50096F706 /* KeypadXC5ViewController.xib */; };
+		FA73EC7117C16D940096F706 /* 22-skull-n-bones.png in Resources */ = {isa = PBXBuildFile; fileRef = FA73EC6F17C16D940096F706 /* 22-skull-n-bones.png */; };
+		FA73EC7217C16D940096F706 /* 22-skull-n-bones@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA73EC7017C16D940096F706 /* 22-skull-n-bones@2x.png */; };
+		FA73EC7617C170CB0096F706 /* MissingConstraintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA73EC7417C170CB0096F706 /* MissingConstraintViewController.m */; };
+		FA73EC7717C170CB0096F706 /* MissingConstraintViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA73EC7517C170CB0096F706 /* MissingConstraintViewController.xib */; };
+		FA7DA75B17A460180079A625 /* KeypadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7DA75A17A460180079A625 /* KeypadView.xib */; };
 		FA7EE1EF16AE280E009FE37C /* RelationShipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7EE1ED16AE280E009FE37C /* RelationShipViewController.m */; };
 		FA7EE1F016AE280E009FE37C /* RelationShipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7EE1EE16AE280E009FE37C /* RelationShipViewController.xib */; };
 		FA7EE1F316AE2F08009FE37C /* 76-baby.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7EE1F116AE2F08009FE37C /* 76-baby.png */; };
@@ -65,6 +74,18 @@
 		FA19F93716A4E3A40075D07C /* 60-signpost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "60-signpost.png"; sourceTree = "<group>"; };
 		FA19F93816A4E3A40075D07C /* 60-signpost@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "60-signpost@2x.png"; sourceTree = "<group>"; };
 		FA19F93C16A4EC9C0075D07C /* IBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBViewController.h; sourceTree = "<group>"; };
+		FA2DEBE61804707A0087D4D9 /* RatesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RatesViewController.h; sourceTree = "<group>"; };
+		FA2DEBE71804707A0087D4D9 /* RatesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RatesViewController.m; sourceTree = "<group>"; };
+		FA2DEBE81804707A0087D4D9 /* RatesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RatesViewController.xib; sourceTree = "<group>"; };
+		FA73EC6A17C16AC50096F706 /* KeypadXC5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeypadXC5ViewController.h; sourceTree = "<group>"; };
+		FA73EC6B17C16AC50096F706 /* KeypadXC5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeypadXC5ViewController.m; sourceTree = "<group>"; };
+		FA73EC6C17C16AC50096F706 /* KeypadXC5ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeypadXC5ViewController.xib; sourceTree = "<group>"; };
+		FA73EC6F17C16D940096F706 /* 22-skull-n-bones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "22-skull-n-bones.png"; sourceTree = "<group>"; };
+		FA73EC7017C16D940096F706 /* 22-skull-n-bones@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "22-skull-n-bones@2x.png"; sourceTree = "<group>"; };
+		FA73EC7317C170CB0096F706 /* MissingConstraintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MissingConstraintViewController.h; sourceTree = "<group>"; };
+		FA73EC7417C170CB0096F706 /* MissingConstraintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MissingConstraintViewController.m; sourceTree = "<group>"; };
+		FA73EC7517C170CB0096F706 /* MissingConstraintViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MissingConstraintViewController.xib; sourceTree = "<group>"; };
+		FA7DA75A17A460180079A625 /* KeypadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeypadView.xib; sourceTree = "<group>"; };
 		FA7EE1EC16AE280E009FE37C /* RelationShipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelationShipViewController.h; sourceTree = "<group>"; };
 		FA7EE1ED16AE280E009FE37C /* RelationShipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelationShipViewController.m; sourceTree = "<group>"; };
 		FA7EE1EE16AE280E009FE37C /* RelationShipViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RelationShipViewController.xib; sourceTree = "<group>"; };
@@ -153,6 +174,15 @@
 				FAC17AF11698C429008A66A7 /* images */,
 				FAC17AC516987628008A66A7 /* AppDelegate.h */,
 				FAC17AC616987628008A66A7 /* AppDelegate.m */,
+				FA158FAD16B417D400C2D4F6 /* VFLViewController.h */,
+				FA158FAE16B417D400C2D4F6 /* VFLViewController.m */,
+				FA158FAF16B417D400C2D4F6 /* VFLViewController.xib */,
+				FA158FB616B4255700C2D4F6 /* LayoutConstraintViewController.h */,
+				FA158FB716B4255700C2D4F6 /* LayoutConstraintViewController.m */,
+				FA158FB816B4255700C2D4F6 /* LayoutConstraintViewController.xib */,
+				FA73EC6A17C16AC50096F706 /* KeypadXC5ViewController.h */,
+				FA73EC6B17C16AC50096F706 /* KeypadXC5ViewController.m */,
+				FA73EC6C17C16AC50096F706 /* KeypadXC5ViewController.xib */,
 				FAC17AD516987628008A66A7 /* BrevityViewController.h */,
 				FAC17AD616987628008A66A7 /* BrevityViewController.m */,
 				FAC17AE216987628008A66A7 /* BrevityViewController.xib */,
@@ -163,9 +193,6 @@
 				FA19F93C16A4EC9C0075D07C /* IBViewController.h */,
 				FAC17ACF16987628008A66A7 /* IBViewController.m */,
 				FAC17ADC16987628008A66A7 /* IBViewController.xib */,
-				FA158FB616B4255700C2D4F6 /* LayoutConstraintViewController.h */,
-				FA158FB716B4255700C2D4F6 /* LayoutConstraintViewController.m */,
-				FA158FB816B4255700C2D4F6 /* LayoutConstraintViewController.xib */,
 				FA7EE1EC16AE280E009FE37C /* RelationShipViewController.h */,
 				FA7EE1ED16AE280E009FE37C /* RelationShipViewController.m */,
 				FA7EE1EE16AE280E009FE37C /* RelationShipViewController.xib */,
@@ -174,10 +201,14 @@
 				FAAA895C16F9A95000B597BE /* Relationship2ViewController.xib */,
 				FAAFC58916A62CC8009F26D7 /* UIView+ConstraintHelpers.h */,
 				FAAFC58A16A62CC8009F26D7 /* UIView+ConstraintHelpers.m */,
-				FA158FAD16B417D400C2D4F6 /* VFLViewController.h */,
-				FA158FAE16B417D400C2D4F6 /* VFLViewController.m */,
-				FA158FAF16B417D400C2D4F6 /* VFLViewController.xib */,
 				FAC17ABD16987628008A66A7 /* Supporting Files */,
+				FA7DA75A17A460180079A625 /* KeypadView.xib */,
+				FA73EC7317C170CB0096F706 /* MissingConstraintViewController.h */,
+				FA73EC7417C170CB0096F706 /* MissingConstraintViewController.m */,
+				FA73EC7517C170CB0096F706 /* MissingConstraintViewController.xib */,
+				FA2DEBE61804707A0087D4D9 /* RatesViewController.h */,
+				FA2DEBE71804707A0087D4D9 /* RatesViewController.m */,
+				FA2DEBE81804707A0087D4D9 /* RatesViewController.xib */,
 			);
 			path = LivingWithAutoLayout;
 			sourceTree = "<group>";
@@ -201,6 +232,8 @@
 			children = (
 				FA7EE1F116AE2F08009FE37C /* 76-baby.png */,
 				FA7EE1F216AE2F08009FE37C /* 76-baby@2x.png */,
+				FA73EC6F17C16D940096F706 /* 22-skull-n-bones.png */,
+				FA73EC7017C16D940096F706 /* 22-skull-n-bones@2x.png */,
 				FAAFC58516A62BCE009F26D7 /* 36-toolbox.png */,
 				FAAFC58616A62BCE009F26D7 /* 36-toolbox@2x.png */,
 				FAC17AD116987628008A66A7 /* first.png */,
@@ -271,11 +304,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAC17AC116987628008A66A7 /* InfoPlist.strings in Resources */,
+				FA73EC7117C16D940096F706 /* 22-skull-n-bones.png in Resources */,
 				FAC17AC916987628008A66A7 /* Default.png in Resources */,
 				FAC17ACB16987628008A66A7 /* Default@2x.png in Resources */,
 				FAC17ACD16987628008A66A7 /* Default-568h@2x.png in Resources */,
 				FAC17AD216987628008A66A7 /* first.png in Resources */,
 				FAC17AD416987628008A66A7 /* first@2x.png in Resources */,
+				FA7DA75B17A460180079A625 /* KeypadView.xib in Resources */,
 				FAC17AD916987628008A66A7 /* second.png in Resources */,
 				FAC17ADB16987628008A66A7 /* second@2x.png in Resources */,
 				FAC17ADE16987628008A66A7 /* IBViewController.xib in Resources */,
@@ -283,19 +318,23 @@
 				FAC17AEF169883A6008A66A7 /* 161-calculator.png in Resources */,
 				FAC17AF0169883A6008A66A7 /* 161-calculator@2x.png in Resources */,
 				FA19F93916A4E3A40075D07C /* 60-signpost.png in Resources */,
+				FA73EC7217C16D940096F706 /* 22-skull-n-bones@2x.png in Resources */,
 				FA19F93A16A4E3A40075D07C /* 60-signpost@2x.png in Resources */,
 				FAAFC58316A62AC9009F26D7 /* CompositionViewController.xib in Resources */,
 				FAAFC58716A62BCE009F26D7 /* 36-toolbox.png in Resources */,
 				FAAFC58816A62BCE009F26D7 /* 36-toolbox@2x.png in Resources */,
 				FA7EE1F016AE280E009FE37C /* RelationShipViewController.xib in Resources */,
 				FA7EE1F316AE2F08009FE37C /* 76-baby.png in Resources */,
+				FA2DEBEA1804707A0087D4D9 /* RatesViewController.xib in Resources */,
 				FA7EE1F416AE2F08009FE37C /* 76-baby@2x.png in Resources */,
 				FA158FAB16B4160700C2D4F6 /* IBDemoView.xib in Resources */,
 				FA158FB116B417D400C2D4F6 /* VFLViewController.xib in Resources */,
 				FA158FB416B41D2300C2D4F6 /* 26-bandaid.png in Resources */,
 				FA158FB516B41D2300C2D4F6 /* 26-bandaid@2x.png in Resources */,
+				FA73EC6E17C16AC50096F706 /* KeypadXC5ViewController.xib in Resources */,
 				FA158FBA16B4255700C2D4F6 /* LayoutConstraintViewController.xib in Resources */,
 				FA158FD516B4276400C2D4F6 /* 85-trophy.png in Resources */,
+				FA73EC7717C170CB0096F706 /* MissingConstraintViewController.xib in Resources */,
 				FA158FD616B4276400C2D4F6 /* 85-trophy@2x.png in Resources */,
 				FAAA895E16F9A95000B597BE /* Relationship2ViewController.xib in Resources */,
 			);
@@ -309,10 +348,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAC17AC316987628008A66A7 /* main.m in Sources */,
+				FA73EC6D17C16AC50096F706 /* KeypadXC5ViewController.m in Sources */,
 				FAC17AC716987628008A66A7 /* AppDelegate.m in Sources */,
 				FAC17AD016987628008A66A7 /* IBViewController.m in Sources */,
 				FAC17AD716987628008A66A7 /* BrevityViewController.m in Sources */,
 				FAAFC58216A62AC9009F26D7 /* CompositionViewController.m in Sources */,
+				FA73EC7617C170CB0096F706 /* MissingConstraintViewController.m in Sources */,
+				FA2DEBE91804707A0087D4D9 /* RatesViewController.m in Sources */,
 				FAAFC58B16A62CC8009F26D7 /* UIView+ConstraintHelpers.m in Sources */,
 				FA7EE1EF16AE280E009FE37C /* RelationShipViewController.m in Sources */,
 				FA158FB016B417D400C2D4F6 /* VFLViewController.m in Sources */,

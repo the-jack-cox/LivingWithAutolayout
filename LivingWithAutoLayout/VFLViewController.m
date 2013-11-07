@@ -7,6 +7,7 @@
 //
 
 #import "VFLViewController.h"
+#import <QuartzCore/QuartzCore.h>
 
 @interface VFLViewController ()
 
@@ -19,6 +20,9 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        
+        self.edgesForExtendedLayout=UIRectEdgeTop;
+        
         self.title = NSLocalizedString(@"VFL", @"Visual Format Language");
         self.tabBarItem.image = [UIImage imageNamed:@"26-bandaid"];
     }
@@ -37,10 +41,14 @@
     
     button1 = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     button1.translatesAutoresizingMaskIntoConstraints=NO;
+    button1.layer.borderColor = [[UIColor blackColor] CGColor];
+    button1.layer.borderWidth = 1.0;
     [button1 setTitle:@"Cancel" forState:UIControlStateNormal];
     [buttonAreaView addSubview:button1];
     
     button2 = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    button2.layer.borderColor = [[UIColor blackColor] CGColor];
+    button2.layer.borderWidth = 1.0;
     button2.translatesAutoresizingMaskIntoConstraints=NO;
     [button2 setTitle:@"Ok" forState:UIControlStateNormal];
     [buttonAreaView addSubview:button2];
