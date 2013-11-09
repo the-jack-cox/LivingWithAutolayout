@@ -19,6 +19,8 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
+        
+        self.edgesForExtendedLayout=UIRectEdgeTop;
         self.title = NSLocalizedString(@"Brevity", @"Second");
         self.tabBarItem.image = [UIImage imageNamed:@"60-signpost"];
     }

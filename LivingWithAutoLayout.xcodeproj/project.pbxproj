@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA158FAB16B4160700C2D4F6 /* IBDemoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA158FAA16B4160700C2D4F6 /* IBDemoView.xib */; };
 		FA158FB016B417D400C2D4F6 /* VFLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA158FAE16B417D400C2D4F6 /* VFLViewController.m */; };
 		FA158FB116B417D400C2D4F6 /* VFLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA158FAF16B417D400C2D4F6 /* VFLViewController.xib */; };
 		FA158FB416B41D2300C2D4F6 /* 26-bandaid.png in Resources */ = {isa = PBXBuildFile; fileRef = FA158FB216B41D2300C2D4F6 /* 26-bandaid.png */; };
@@ -31,6 +30,10 @@
 		FA7EE1F016AE280E009FE37C /* RelationShipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7EE1EE16AE280E009FE37C /* RelationShipViewController.xib */; };
 		FA7EE1F316AE2F08009FE37C /* 76-baby.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7EE1F116AE2F08009FE37C /* 76-baby.png */; };
 		FA7EE1F416AE2F08009FE37C /* 76-baby@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7EE1F216AE2F08009FE37C /* 76-baby@2x.png */; };
+		FAA7A1D9182E836E0015725B /* IBDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA7A1D7182E836E0015725B /* IBDemoViewController.m */; };
+		FAA7A1DA182E836E0015725B /* IBDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA7A1D8182E836E0015725B /* IBDemoViewController.xib */; };
+		FAA7A1E1182E85070015725B /* 1013-hammer.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA7A1DF182E85070015725B /* 1013-hammer.png */; };
+		FAA7A1E2182E85070015725B /* 1013-hammer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA7A1E0182E85070015725B /* 1013-hammer@2x.png */; };
 		FAAA895D16F9A95000B597BE /* Relationship2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAA895B16F9A95000B597BE /* Relationship2ViewController.m */; };
 		FAAA895E16F9A95000B597BE /* Relationship2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAAA895C16F9A95000B597BE /* Relationship2ViewController.xib */; };
 		FAAFC58216A62AC9009F26D7 /* CompositionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAFC58016A62AC9009F26D7 /* CompositionViewController.m */; };
@@ -38,6 +41,8 @@
 		FAAFC58716A62BCE009F26D7 /* 36-toolbox.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAFC58516A62BCE009F26D7 /* 36-toolbox.png */; };
 		FAAFC58816A62BCE009F26D7 /* 36-toolbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAFC58616A62BCE009F26D7 /* 36-toolbox@2x.png */; };
 		FAAFC58B16A62CC8009F26D7 /* UIView+ConstraintHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAFC58A16A62CC8009F26D7 /* UIView+ConstraintHelpers.m */; };
+		FABAF93A182B2BA100414FB1 /* 753-signpost.png in Resources */ = {isa = PBXBuildFile; fileRef = FABAF938182B2BA100414FB1 /* 753-signpost.png */; };
+		FABAF93B182B2BA100414FB1 /* 753-signpost@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FABAF939182B2BA100414FB1 /* 753-signpost@2x.png */; };
 		FAC17AB716987628008A66A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC17AB616987628008A66A7 /* UIKit.framework */; };
 		FAC17AB916987628008A66A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC17AB816987628008A66A7 /* Foundation.framework */; };
 		FAC17ABB16987628008A66A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC17ABA16987628008A66A7 /* CoreGraphics.framework */; };
@@ -60,7 +65,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FA158FAA16B4160700C2D4F6 /* IBDemoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IBDemoView.xib; sourceTree = "<group>"; };
 		FA158FAD16B417D400C2D4F6 /* VFLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFLViewController.h; sourceTree = "<group>"; };
 		FA158FAE16B417D400C2D4F6 /* VFLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFLViewController.m; sourceTree = "<group>"; };
 		FA158FAF16B417D400C2D4F6 /* VFLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VFLViewController.xib; sourceTree = "<group>"; };
@@ -91,6 +95,11 @@
 		FA7EE1EE16AE280E009FE37C /* RelationShipViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RelationShipViewController.xib; sourceTree = "<group>"; };
 		FA7EE1F116AE2F08009FE37C /* 76-baby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "76-baby.png"; sourceTree = "<group>"; };
 		FA7EE1F216AE2F08009FE37C /* 76-baby@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "76-baby@2x.png"; sourceTree = "<group>"; };
+		FAA7A1D6182E836E0015725B /* IBDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBDemoViewController.h; sourceTree = "<group>"; };
+		FAA7A1D7182E836E0015725B /* IBDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBDemoViewController.m; sourceTree = "<group>"; };
+		FAA7A1D8182E836E0015725B /* IBDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IBDemoViewController.xib; sourceTree = "<group>"; };
+		FAA7A1DF182E85070015725B /* 1013-hammer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1013-hammer.png"; sourceTree = "<group>"; };
+		FAA7A1E0182E85070015725B /* 1013-hammer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1013-hammer@2x.png"; sourceTree = "<group>"; };
 		FAAA895A16F9A95000B597BE /* Relationship2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Relationship2ViewController.h; sourceTree = "<group>"; };
 		FAAA895B16F9A95000B597BE /* Relationship2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Relationship2ViewController.m; sourceTree = "<group>"; };
 		FAAA895C16F9A95000B597BE /* Relationship2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Relationship2ViewController.xib; sourceTree = "<group>"; };
@@ -101,6 +110,8 @@
 		FAAFC58616A62BCE009F26D7 /* 36-toolbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "36-toolbox@2x.png"; sourceTree = "<group>"; };
 		FAAFC58916A62CC8009F26D7 /* UIView+ConstraintHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ConstraintHelpers.h"; sourceTree = "<group>"; };
 		FAAFC58A16A62CC8009F26D7 /* UIView+ConstraintHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ConstraintHelpers.m"; sourceTree = "<group>"; };
+		FABAF938182B2BA100414FB1 /* 753-signpost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "753-signpost.png"; sourceTree = "<group>"; };
+		FABAF939182B2BA100414FB1 /* 753-signpost@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "753-signpost@2x.png"; sourceTree = "<group>"; };
 		FAC17AB216987628008A66A7 /* LivingWithAutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LivingWithAutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC17AB616987628008A66A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FAC17AB816987628008A66A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -180,16 +191,21 @@
 				FA158FB616B4255700C2D4F6 /* LayoutConstraintViewController.h */,
 				FA158FB716B4255700C2D4F6 /* LayoutConstraintViewController.m */,
 				FA158FB816B4255700C2D4F6 /* LayoutConstraintViewController.xib */,
+				FAA7A1D6182E836E0015725B /* IBDemoViewController.h */,
+				FAA7A1D7182E836E0015725B /* IBDemoViewController.m */,
+				FAA7A1D8182E836E0015725B /* IBDemoViewController.xib */,
 				FA73EC6A17C16AC50096F706 /* KeypadXC5ViewController.h */,
 				FA73EC6B17C16AC50096F706 /* KeypadXC5ViewController.m */,
 				FA73EC6C17C16AC50096F706 /* KeypadXC5ViewController.xib */,
+				FA2DEBE61804707A0087D4D9 /* RatesViewController.h */,
+				FA2DEBE71804707A0087D4D9 /* RatesViewController.m */,
+				FA2DEBE81804707A0087D4D9 /* RatesViewController.xib */,
 				FAC17AD516987628008A66A7 /* BrevityViewController.h */,
 				FAC17AD616987628008A66A7 /* BrevityViewController.m */,
 				FAC17AE216987628008A66A7 /* BrevityViewController.xib */,
 				FAAFC57F16A62AC9009F26D7 /* CompositionViewController.h */,
 				FAAFC58016A62AC9009F26D7 /* CompositionViewController.m */,
 				FAAFC58116A62AC9009F26D7 /* CompositionViewController.xib */,
-				FA158FAA16B4160700C2D4F6 /* IBDemoView.xib */,
 				FA19F93C16A4EC9C0075D07C /* IBViewController.h */,
 				FAC17ACF16987628008A66A7 /* IBViewController.m */,
 				FAC17ADC16987628008A66A7 /* IBViewController.xib */,
@@ -206,9 +222,6 @@
 				FA73EC7317C170CB0096F706 /* MissingConstraintViewController.h */,
 				FA73EC7417C170CB0096F706 /* MissingConstraintViewController.m */,
 				FA73EC7517C170CB0096F706 /* MissingConstraintViewController.xib */,
-				FA2DEBE61804707A0087D4D9 /* RatesViewController.h */,
-				FA2DEBE71804707A0087D4D9 /* RatesViewController.m */,
-				FA2DEBE81804707A0087D4D9 /* RatesViewController.xib */,
 			);
 			path = LivingWithAutoLayout;
 			sourceTree = "<group>";
@@ -230,6 +243,10 @@
 		FAC17AF11698C429008A66A7 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				FAA7A1DF182E85070015725B /* 1013-hammer.png */,
+				FAA7A1E0182E85070015725B /* 1013-hammer@2x.png */,
+				FABAF938182B2BA100414FB1 /* 753-signpost.png */,
+				FABAF939182B2BA100414FB1 /* 753-signpost@2x.png */,
 				FA7EE1F116AE2F08009FE37C /* 76-baby.png */,
 				FA7EE1F216AE2F08009FE37C /* 76-baby@2x.png */,
 				FA73EC6F17C16D940096F706 /* 22-skull-n-bones.png */,
@@ -303,6 +320,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA7A1E1182E85070015725B /* 1013-hammer.png in Resources */,
 				FAC17AC116987628008A66A7 /* InfoPlist.strings in Resources */,
 				FA73EC7117C16D940096F706 /* 22-skull-n-bones.png in Resources */,
 				FAC17AC916987628008A66A7 /* Default.png in Resources */,
@@ -310,12 +328,15 @@
 				FAC17ACD16987628008A66A7 /* Default-568h@2x.png in Resources */,
 				FAC17AD216987628008A66A7 /* first.png in Resources */,
 				FAC17AD416987628008A66A7 /* first@2x.png in Resources */,
+				FABAF93B182B2BA100414FB1 /* 753-signpost@2x.png in Resources */,
+				FAA7A1DA182E836E0015725B /* IBDemoViewController.xib in Resources */,
 				FA7DA75B17A460180079A625 /* KeypadView.xib in Resources */,
 				FAC17AD916987628008A66A7 /* second.png in Resources */,
 				FAC17ADB16987628008A66A7 /* second@2x.png in Resources */,
 				FAC17ADE16987628008A66A7 /* IBViewController.xib in Resources */,
 				FAC17AE416987628008A66A7 /* BrevityViewController.xib in Resources */,
 				FAC17AEF169883A6008A66A7 /* 161-calculator.png in Resources */,
+				FABAF93A182B2BA100414FB1 /* 753-signpost.png in Resources */,
 				FAC17AF0169883A6008A66A7 /* 161-calculator@2x.png in Resources */,
 				FA19F93916A4E3A40075D07C /* 60-signpost.png in Resources */,
 				FA73EC7217C16D940096F706 /* 22-skull-n-bones@2x.png in Resources */,
@@ -327,7 +348,6 @@
 				FA7EE1F316AE2F08009FE37C /* 76-baby.png in Resources */,
 				FA2DEBEA1804707A0087D4D9 /* RatesViewController.xib in Resources */,
 				FA7EE1F416AE2F08009FE37C /* 76-baby@2x.png in Resources */,
-				FA158FAB16B4160700C2D4F6 /* IBDemoView.xib in Resources */,
 				FA158FB116B417D400C2D4F6 /* VFLViewController.xib in Resources */,
 				FA158FB416B41D2300C2D4F6 /* 26-bandaid.png in Resources */,
 				FA158FB516B41D2300C2D4F6 /* 26-bandaid@2x.png in Resources */,
@@ -335,6 +355,7 @@
 				FA158FBA16B4255700C2D4F6 /* LayoutConstraintViewController.xib in Resources */,
 				FA158FD516B4276400C2D4F6 /* 85-trophy.png in Resources */,
 				FA73EC7717C170CB0096F706 /* MissingConstraintViewController.xib in Resources */,
+				FAA7A1E2182E85070015725B /* 1013-hammer@2x.png in Resources */,
 				FA158FD616B4276400C2D4F6 /* 85-trophy@2x.png in Resources */,
 				FAAA895E16F9A95000B597BE /* Relationship2ViewController.xib in Resources */,
 			);
@@ -353,6 +374,7 @@
 				FAC17AD016987628008A66A7 /* IBViewController.m in Sources */,
 				FAC17AD716987628008A66A7 /* BrevityViewController.m in Sources */,
 				FAAFC58216A62AC9009F26D7 /* CompositionViewController.m in Sources */,
+				FAA7A1D9182E836E0015725B /* IBDemoViewController.m in Sources */,
 				FA73EC7617C170CB0096F706 /* MissingConstraintViewController.m in Sources */,
 				FA2DEBE91804707A0087D4D9 /* RatesViewController.m in Sources */,
 				FAAFC58B16A62CC8009F26D7 /* UIView+ConstraintHelpers.m in Sources */,

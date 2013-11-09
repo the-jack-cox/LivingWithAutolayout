@@ -18,6 +18,8 @@
 #import "LayoutConstraintViewController.h"
 #import "Relationship2ViewController.h"
 #import "KeypadXC5ViewController.h"
+#import "RatesViewController.h"
+#import "IBDemoViewController.h"
 
 @implementation AppDelegate
 
@@ -30,7 +32,10 @@
     self.tabBarController.viewControllers = @[
     [[VFLViewController alloc] initWithNibName:@"VFLViewController" bundle:nil],
     [[LayoutConstraintViewController alloc] initWithNibName:@"LayoutConstraintViewController" bundle:nil],
+    [[IBDemoViewController alloc] initWithNibName:@"IBDemoViewController" bundle:nil],
     [[KeypadXC5ViewController alloc] initWithNibName:@"KeypadXC5ViewController" bundle:nil],
+
+    [[RatesViewController alloc] initWithNibName:@"RatesViewController" bundle:nil],
     [[BrevityViewController alloc] initWithNibName:@"BrevityViewController" bundle:nil ],
     [[IBViewController alloc] initWithNibName:@"IBViewController" bundle:nil],
     [[RelationShipViewController alloc] initWithNibName:@"RelationShipViewController" bundle:nil],
