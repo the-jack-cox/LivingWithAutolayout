@@ -20,7 +20,7 @@
 #import "KeypadXC5ViewController.h"
 #import "RatesViewController.h"
 #import "IBDemoViewController.h"
-
+#import "IBDemo2ViewController.h"
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -34,6 +34,7 @@
     [[LayoutConstraintViewController alloc] initWithNibName:@"LayoutConstraintViewController" bundle:nil],
     [[IBDemoViewController alloc] initWithNibName:@"IBDemoViewController" bundle:nil],
     [[KeypadXC5ViewController alloc] initWithNibName:@"KeypadXC5ViewController" bundle:nil],
+    [[IBDemo2ViewController alloc] initWithNibName:@"IBDemo2ViewController" bundle:nil],
 
     [[RatesViewController alloc] initWithNibName:@"RatesViewController" bundle:nil],
     [[BrevityViewController alloc] initWithNibName:@"BrevityViewController" bundle:nil ],
