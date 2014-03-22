@@ -84,6 +84,12 @@
                                              metrics:nil
                                             views:views]];
     
+// uncomment next 5 lines to induce a conflict
+//    [buttonAreaView addConstraints:
+//     [NSLayoutConstraint constraintsWithVisualFormat:@"|-[button1(50)]-[button2(==button1)]-|"
+//                                             options:NSLayoutFormatDirectionLeftToRight
+//                                             metrics:nil
+//                                               views:views]];
     [buttonAreaView addConstraints:
     [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-[button1]-|"
                                             options:NSLayoutFormatDirectionLeftToRight

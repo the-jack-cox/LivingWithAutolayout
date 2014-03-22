@@ -10,5 +10,6 @@
 
 @interface KeypadXC5ViewController : UIViewController
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *buttonCollection;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *button1and5height;
 
 @end
