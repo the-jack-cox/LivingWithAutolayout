@@ -21,6 +21,9 @@
 #import "RatesViewController.h"
 #import "IBDemoViewController.h"
 #import "IBDemo2ViewController.h"
+
+#import "ScrollViewDemo.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -41,7 +44,8 @@
     [[IBViewController alloc] initWithNibName:@"IBViewController" bundle:nil],
     [[RelationShipViewController alloc] initWithNibName:@"RelationShipViewController" bundle:nil],
     [[Relationship2ViewController alloc] initWithNibName:@"Relationship2ViewController" bundle:nil],
-    [[CompositionViewController alloc] initWithNibName:@"CompositionViewController" bundle:nil]
+    [[CompositionViewController alloc] initWithNibName:@"CompositionViewController" bundle:nil],
+    [[ScrollViewDemo alloc] initWithNibName:@"ScrollViewDemo" bundle:nil]
     
     ];
     

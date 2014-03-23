@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ScrollViewDemo : UIViewController
+@property (strong, nonatomic) IBOutletCollection(UILabel) NSArray *labels;
+@property (weak, nonatomic) IBOutlet UILabel *firstLabel;
+@property (weak, nonatomic) IBOutlet UILabel *lastLabel;
 
 @end

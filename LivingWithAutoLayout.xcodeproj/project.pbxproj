@@ -9,80 +9,48 @@
 /* Begin PBXBuildFile section */
 		FA158FB016B417D400C2D4F6 /* VFLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA158FAE16B417D400C2D4F6 /* VFLViewController.m */; };
 		FA158FB116B417D400C2D4F6 /* VFLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA158FAF16B417D400C2D4F6 /* VFLViewController.xib */; };
-		FA158FB416B41D2300C2D4F6 /* 26-bandaid.png in Resources */ = {isa = PBXBuildFile; fileRef = FA158FB216B41D2300C2D4F6 /* 26-bandaid.png */; };
-		FA158FB516B41D2300C2D4F6 /* 26-bandaid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA158FB316B41D2300C2D4F6 /* 26-bandaid@2x.png */; };
 		FA158FB916B4255700C2D4F6 /* LayoutConstraintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA158FB716B4255700C2D4F6 /* LayoutConstraintViewController.m */; };
 		FA158FBA16B4255700C2D4F6 /* LayoutConstraintViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA158FB816B4255700C2D4F6 /* LayoutConstraintViewController.xib */; };
-		FA158FD516B4276400C2D4F6 /* 85-trophy.png in Resources */ = {isa = PBXBuildFile; fileRef = FA158FD316B4276400C2D4F6 /* 85-trophy.png */; };
-		FA158FD616B4276400C2D4F6 /* 85-trophy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA158FD416B4276400C2D4F6 /* 85-trophy@2x.png */; };
-		FA19F93916A4E3A40075D07C /* 60-signpost.png in Resources */ = {isa = PBXBuildFile; fileRef = FA19F93716A4E3A40075D07C /* 60-signpost.png */; };
-		FA19F93A16A4E3A40075D07C /* 60-signpost@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA19F93816A4E3A40075D07C /* 60-signpost@2x.png */; };
 		FA2DEBE91804707A0087D4D9 /* RatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2DEBE71804707A0087D4D9 /* RatesViewController.m */; };
 		FA2DEBEA1804707A0087D4D9 /* RatesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA2DEBE81804707A0087D4D9 /* RatesViewController.xib */; };
 		FA73EC6D17C16AC50096F706 /* KeypadXC5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA73EC6B17C16AC50096F706 /* KeypadXC5ViewController.m */; };
 		FA73EC6E17C16AC50096F706 /* KeypadXC5ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA73EC6C17C16AC50096F706 /* KeypadXC5ViewController.xib */; };
-		FA73EC7117C16D940096F706 /* 22-skull-n-bones.png in Resources */ = {isa = PBXBuildFile; fileRef = FA73EC6F17C16D940096F706 /* 22-skull-n-bones.png */; };
-		FA73EC7217C16D940096F706 /* 22-skull-n-bones@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA73EC7017C16D940096F706 /* 22-skull-n-bones@2x.png */; };
 		FA73EC7617C170CB0096F706 /* MissingConstraintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA73EC7417C170CB0096F706 /* MissingConstraintViewController.m */; };
 		FA73EC7717C170CB0096F706 /* MissingConstraintViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA73EC7517C170CB0096F706 /* MissingConstraintViewController.xib */; };
 		FA7DA75B17A460180079A625 /* KeypadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7DA75A17A460180079A625 /* KeypadView.xib */; };
 		FA7EE1EF16AE280E009FE37C /* RelationShipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7EE1ED16AE280E009FE37C /* RelationShipViewController.m */; };
 		FA7EE1F016AE280E009FE37C /* RelationShipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7EE1EE16AE280E009FE37C /* RelationShipViewController.xib */; };
-		FA7EE1F316AE2F08009FE37C /* 76-baby.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7EE1F116AE2F08009FE37C /* 76-baby.png */; };
-		FA7EE1F416AE2F08009FE37C /* 76-baby@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7EE1F216AE2F08009FE37C /* 76-baby@2x.png */; };
 		FAA7A1D9182E836E0015725B /* IBDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA7A1D7182E836E0015725B /* IBDemoViewController.m */; };
 		FAA7A1DA182E836E0015725B /* IBDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA7A1D8182E836E0015725B /* IBDemoViewController.xib */; };
-		FAA7A1E1182E85070015725B /* 1013-hammer.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA7A1DF182E85070015725B /* 1013-hammer.png */; };
-		FAA7A1E2182E85070015725B /* 1013-hammer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA7A1E0182E85070015725B /* 1013-hammer@2x.png */; };
 		FAA7A1E6182E8C950015725B /* IBDemo2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA7A1E4182E8C950015725B /* IBDemo2ViewController.m */; };
 		FAA7A1E7182E8C950015725B /* IBDemo2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA7A1E5182E8C950015725B /* IBDemo2ViewController.xib */; };
-		FAA7A1EA182E8CE30015725B /* 944-walking-man.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA7A1E8182E8CE30015725B /* 944-walking-man.png */; };
-		FAA7A1EB182E8CE30015725B /* 944-walking-man@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA7A1E9182E8CE30015725B /* 944-walking-man@2x.png */; };
 		FAAA895D16F9A95000B597BE /* Relationship2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAA895B16F9A95000B597BE /* Relationship2ViewController.m */; };
 		FAAA895E16F9A95000B597BE /* Relationship2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAAA895C16F9A95000B597BE /* Relationship2ViewController.xib */; };
 		FAAFC58216A62AC9009F26D7 /* CompositionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAFC58016A62AC9009F26D7 /* CompositionViewController.m */; };
 		FAAFC58316A62AC9009F26D7 /* CompositionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAAFC58116A62AC9009F26D7 /* CompositionViewController.xib */; };
-		FAAFC58716A62BCE009F26D7 /* 36-toolbox.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAFC58516A62BCE009F26D7 /* 36-toolbox.png */; };
-		FAAFC58816A62BCE009F26D7 /* 36-toolbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAFC58616A62BCE009F26D7 /* 36-toolbox@2x.png */; };
 		FAAFC58B16A62CC8009F26D7 /* UIView+ConstraintHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAFC58A16A62CC8009F26D7 /* UIView+ConstraintHelpers.m */; };
-		FABAF93A182B2BA100414FB1 /* 753-signpost.png in Resources */ = {isa = PBXBuildFile; fileRef = FABAF938182B2BA100414FB1 /* 753-signpost.png */; };
-		FABAF93B182B2BA100414FB1 /* 753-signpost@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FABAF939182B2BA100414FB1 /* 753-signpost@2x.png */; };
 		FAC17AB716987628008A66A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC17AB616987628008A66A7 /* UIKit.framework */; };
 		FAC17AB916987628008A66A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC17AB816987628008A66A7 /* Foundation.framework */; };
 		FAC17ABB16987628008A66A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC17ABA16987628008A66A7 /* CoreGraphics.framework */; };
 		FAC17AC116987628008A66A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAC17ABF16987628008A66A7 /* InfoPlist.strings */; };
 		FAC17AC316987628008A66A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC17AC216987628008A66A7 /* main.m */; };
 		FAC17AC716987628008A66A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC17AC616987628008A66A7 /* AppDelegate.m */; };
-		FAC17AC916987628008A66A7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC17AC816987628008A66A7 /* Default.png */; };
-		FAC17ACB16987628008A66A7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC17ACA16987628008A66A7 /* Default@2x.png */; };
-		FAC17ACD16987628008A66A7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC17ACC16987628008A66A7 /* Default-568h@2x.png */; };
 		FAC17AD016987628008A66A7 /* IBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC17ACF16987628008A66A7 /* IBViewController.m */; };
-		FAC17AD216987628008A66A7 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC17AD116987628008A66A7 /* first.png */; };
-		FAC17AD416987628008A66A7 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC17AD316987628008A66A7 /* first@2x.png */; };
 		FAC17AD716987628008A66A7 /* BrevityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC17AD616987628008A66A7 /* BrevityViewController.m */; };
-		FAC17AD916987628008A66A7 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC17AD816987628008A66A7 /* second.png */; };
-		FAC17ADB16987628008A66A7 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC17ADA16987628008A66A7 /* second@2x.png */; };
 		FAC17ADE16987628008A66A7 /* IBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC17ADC16987628008A66A7 /* IBViewController.xib */; };
 		FAC17AE416987628008A66A7 /* BrevityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC17AE216987628008A66A7 /* BrevityViewController.xib */; };
-		FAC17AEF169883A6008A66A7 /* 161-calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC17AED169883A6008A66A7 /* 161-calculator.png */; };
-		FAC17AF0169883A6008A66A7 /* 161-calculator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC17AEE169883A6008A66A7 /* 161-calculator@2x.png */; };
 		FAC94F2C18DE39D3002FD970 /* ScrollViewDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC94F2A18DE39D3002FD970 /* ScrollViewDemo.m */; };
 		FAC94F2D18DE39D3002FD970 /* ScrollViewDemo.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC94F2B18DE39D3002FD970 /* ScrollViewDemo.xib */; };
+		FAC94F3718DE70CD002FD970 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC94F3618DE70CD002FD970 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FA158FAD16B417D400C2D4F6 /* VFLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFLViewController.h; sourceTree = "<group>"; };
 		FA158FAE16B417D400C2D4F6 /* VFLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFLViewController.m; sourceTree = "<group>"; };
 		FA158FAF16B417D400C2D4F6 /* VFLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VFLViewController.xib; sourceTree = "<group>"; };
-		FA158FB216B41D2300C2D4F6 /* 26-bandaid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "26-bandaid.png"; sourceTree = "<group>"; };
-		FA158FB316B41D2300C2D4F6 /* 26-bandaid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "26-bandaid@2x.png"; sourceTree = "<group>"; };
 		FA158FB616B4255700C2D4F6 /* LayoutConstraintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutConstraintViewController.h; sourceTree = "<group>"; };
 		FA158FB716B4255700C2D4F6 /* LayoutConstraintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutConstraintViewController.m; sourceTree = "<group>"; };
 		FA158FB816B4255700C2D4F6 /* LayoutConstraintViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LayoutConstraintViewController.xib; sourceTree = "<group>"; };
-		FA158FD316B4276400C2D4F6 /* 85-trophy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "85-trophy.png"; sourceTree = "<group>"; };
-		FA158FD416B4276400C2D4F6 /* 85-trophy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "85-trophy@2x.png"; sourceTree = "<group>"; };
-		FA19F93716A4E3A40075D07C /* 60-signpost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "60-signpost.png"; sourceTree = "<group>"; };
-		FA19F93816A4E3A40075D07C /* 60-signpost@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "60-signpost@2x.png"; sourceTree = "<group>"; };
 		FA19F93C16A4EC9C0075D07C /* IBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBViewController.h; sourceTree = "<group>"; };
 		FA2DEBE61804707A0087D4D9 /* RatesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RatesViewController.h; sourceTree = "<group>"; };
 		FA2DEBE71804707A0087D4D9 /* RatesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RatesViewController.m; sourceTree = "<group>"; };
@@ -90,8 +58,6 @@
 		FA73EC6A17C16AC50096F706 /* KeypadXC5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeypadXC5ViewController.h; sourceTree = "<group>"; };
 		FA73EC6B17C16AC50096F706 /* KeypadXC5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeypadXC5ViewController.m; sourceTree = "<group>"; };
 		FA73EC6C17C16AC50096F706 /* KeypadXC5ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeypadXC5ViewController.xib; sourceTree = "<group>"; };
-		FA73EC6F17C16D940096F706 /* 22-skull-n-bones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "22-skull-n-bones.png"; sourceTree = "<group>"; };
-		FA73EC7017C16D940096F706 /* 22-skull-n-bones@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "22-skull-n-bones@2x.png"; sourceTree = "<group>"; };
 		FA73EC7317C170CB0096F706 /* MissingConstraintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MissingConstraintViewController.h; sourceTree = "<group>"; };
 		FA73EC7417C170CB0096F706 /* MissingConstraintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MissingConstraintViewController.m; sourceTree = "<group>"; };
 		FA73EC7517C170CB0096F706 /* MissingConstraintViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MissingConstraintViewController.xib; sourceTree = "<group>"; };
@@ -99,30 +65,20 @@
 		FA7EE1EC16AE280E009FE37C /* RelationShipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelationShipViewController.h; sourceTree = "<group>"; };
 		FA7EE1ED16AE280E009FE37C /* RelationShipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelationShipViewController.m; sourceTree = "<group>"; };
 		FA7EE1EE16AE280E009FE37C /* RelationShipViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RelationShipViewController.xib; sourceTree = "<group>"; };
-		FA7EE1F116AE2F08009FE37C /* 76-baby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "76-baby.png"; sourceTree = "<group>"; };
-		FA7EE1F216AE2F08009FE37C /* 76-baby@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "76-baby@2x.png"; sourceTree = "<group>"; };
 		FAA7A1D6182E836E0015725B /* IBDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBDemoViewController.h; sourceTree = "<group>"; };
 		FAA7A1D7182E836E0015725B /* IBDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBDemoViewController.m; sourceTree = "<group>"; };
 		FAA7A1D8182E836E0015725B /* IBDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IBDemoViewController.xib; sourceTree = "<group>"; };
-		FAA7A1DF182E85070015725B /* 1013-hammer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1013-hammer.png"; sourceTree = "<group>"; };
-		FAA7A1E0182E85070015725B /* 1013-hammer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1013-hammer@2x.png"; sourceTree = "<group>"; };
 		FAA7A1E3182E8C950015725B /* IBDemo2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBDemo2ViewController.h; sourceTree = "<group>"; };
 		FAA7A1E4182E8C950015725B /* IBDemo2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBDemo2ViewController.m; sourceTree = "<group>"; };
 		FAA7A1E5182E8C950015725B /* IBDemo2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IBDemo2ViewController.xib; sourceTree = "<group>"; };
-		FAA7A1E8182E8CE30015725B /* 944-walking-man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "944-walking-man.png"; sourceTree = "<group>"; };
-		FAA7A1E9182E8CE30015725B /* 944-walking-man@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "944-walking-man@2x.png"; sourceTree = "<group>"; };
 		FAAA895A16F9A95000B597BE /* Relationship2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Relationship2ViewController.h; sourceTree = "<group>"; };
 		FAAA895B16F9A95000B597BE /* Relationship2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Relationship2ViewController.m; sourceTree = "<group>"; };
 		FAAA895C16F9A95000B597BE /* Relationship2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Relationship2ViewController.xib; sourceTree = "<group>"; };
 		FAAFC57F16A62AC9009F26D7 /* CompositionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompositionViewController.h; sourceTree = "<group>"; };
 		FAAFC58016A62AC9009F26D7 /* CompositionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompositionViewController.m; sourceTree = "<group>"; };
 		FAAFC58116A62AC9009F26D7 /* CompositionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CompositionViewController.xib; sourceTree = "<group>"; };
-		FAAFC58516A62BCE009F26D7 /* 36-toolbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "36-toolbox.png"; sourceTree = "<group>"; };
-		FAAFC58616A62BCE009F26D7 /* 36-toolbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "36-toolbox@2x.png"; sourceTree = "<group>"; };
 		FAAFC58916A62CC8009F26D7 /* UIView+ConstraintHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ConstraintHelpers.h"; sourceTree = "<group>"; };
 		FAAFC58A16A62CC8009F26D7 /* UIView+ConstraintHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ConstraintHelpers.m"; sourceTree = "<group>"; };
-		FABAF938182B2BA100414FB1 /* 753-signpost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "753-signpost.png"; sourceTree = "<group>"; };
-		FABAF939182B2BA100414FB1 /* 753-signpost@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "753-signpost@2x.png"; sourceTree = "<group>"; };
 		FAC17AB216987628008A66A7 /* LivingWithAutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LivingWithAutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC17AB616987628008A66A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FAC17AB816987628008A66A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -133,23 +89,15 @@
 		FAC17AC416987628008A66A7 /* LivingWithAutoLayout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LivingWithAutoLayout-Prefix.pch"; sourceTree = "<group>"; };
 		FAC17AC516987628008A66A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FAC17AC616987628008A66A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FAC17AC816987628008A66A7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		FAC17ACA16987628008A66A7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		FAC17ACC16987628008A66A7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		FAC17ACF16987628008A66A7 /* IBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBViewController.m; sourceTree = "<group>"; };
-		FAC17AD116987628008A66A7 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		FAC17AD316987628008A66A7 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
 		FAC17AD516987628008A66A7 /* BrevityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrevityViewController.h; sourceTree = "<group>"; };
 		FAC17AD616987628008A66A7 /* BrevityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrevityViewController.m; sourceTree = "<group>"; };
-		FAC17AD816987628008A66A7 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		FAC17ADA16987628008A66A7 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		FAC17ADD16987628008A66A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/IBViewController.xib; sourceTree = "<group>"; };
 		FAC17AE316987628008A66A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BrevityViewController.xib; sourceTree = "<group>"; };
-		FAC17AED169883A6008A66A7 /* 161-calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "161-calculator.png"; sourceTree = "<group>"; };
-		FAC17AEE169883A6008A66A7 /* 161-calculator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "161-calculator@2x.png"; sourceTree = "<group>"; };
 		FAC94F2918DE39D3002FD970 /* ScrollViewDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewDemo.h; sourceTree = "<group>"; };
 		FAC94F2A18DE39D3002FD970 /* ScrollViewDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewDemo.m; sourceTree = "<group>"; };
 		FAC94F2B18DE39D3002FD970 /* ScrollViewDemo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScrollViewDemo.xib; sourceTree = "<group>"; };
+		FAC94F3618DE70CD002FD970 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,9 +201,6 @@
 				FAC17ABF16987628008A66A7 /* InfoPlist.strings */,
 				FAC17AC216987628008A66A7 /* main.m */,
 				FAC17AC416987628008A66A7 /* LivingWithAutoLayout-Prefix.pch */,
-				FAC17AC816987628008A66A7 /* Default.png */,
-				FAC17ACA16987628008A66A7 /* Default@2x.png */,
-				FAC17ACC16987628008A66A7 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -263,30 +208,7 @@
 		FAC17AF11698C429008A66A7 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				FAA7A1E8182E8CE30015725B /* 944-walking-man.png */,
-				FAA7A1E9182E8CE30015725B /* 944-walking-man@2x.png */,
-				FAA7A1DF182E85070015725B /* 1013-hammer.png */,
-				FAA7A1E0182E85070015725B /* 1013-hammer@2x.png */,
-				FABAF938182B2BA100414FB1 /* 753-signpost.png */,
-				FABAF939182B2BA100414FB1 /* 753-signpost@2x.png */,
-				FA7EE1F116AE2F08009FE37C /* 76-baby.png */,
-				FA7EE1F216AE2F08009FE37C /* 76-baby@2x.png */,
-				FA73EC6F17C16D940096F706 /* 22-skull-n-bones.png */,
-				FA73EC7017C16D940096F706 /* 22-skull-n-bones@2x.png */,
-				FAAFC58516A62BCE009F26D7 /* 36-toolbox.png */,
-				FAAFC58616A62BCE009F26D7 /* 36-toolbox@2x.png */,
-				FAC17AD116987628008A66A7 /* first.png */,
-				FAC17AD316987628008A66A7 /* first@2x.png */,
-				FAC17AD816987628008A66A7 /* second.png */,
-				FAC17ADA16987628008A66A7 /* second@2x.png */,
-				FA19F93716A4E3A40075D07C /* 60-signpost.png */,
-				FA19F93816A4E3A40075D07C /* 60-signpost@2x.png */,
-				FAC17AED169883A6008A66A7 /* 161-calculator.png */,
-				FAC17AEE169883A6008A66A7 /* 161-calculator@2x.png */,
-				FA158FB216B41D2300C2D4F6 /* 26-bandaid.png */,
-				FA158FB316B41D2300C2D4F6 /* 26-bandaid@2x.png */,
-				FA158FD316B4276400C2D4F6 /* 85-trophy.png */,
-				FA158FD416B4276400C2D4F6 /* 85-trophy@2x.png */,
+				FAC94F3618DE70CD002FD970 /* Media.xcassets */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -342,47 +264,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAA7A1E1182E85070015725B /* 1013-hammer.png in Resources */,
 				FAC17AC116987628008A66A7 /* InfoPlist.strings in Resources */,
-				FA73EC7117C16D940096F706 /* 22-skull-n-bones.png in Resources */,
-				FAC17AC916987628008A66A7 /* Default.png in Resources */,
-				FAC17ACB16987628008A66A7 /* Default@2x.png in Resources */,
-				FAC17ACD16987628008A66A7 /* Default-568h@2x.png in Resources */,
-				FAC17AD216987628008A66A7 /* first.png in Resources */,
-				FAC17AD416987628008A66A7 /* first@2x.png in Resources */,
-				FAA7A1EB182E8CE30015725B /* 944-walking-man@2x.png in Resources */,
-				FABAF93B182B2BA100414FB1 /* 753-signpost@2x.png in Resources */,
+				FAC94F3718DE70CD002FD970 /* Media.xcassets in Resources */,
 				FAA7A1DA182E836E0015725B /* IBDemoViewController.xib in Resources */,
 				FA7DA75B17A460180079A625 /* KeypadView.xib in Resources */,
-				FAC17AD916987628008A66A7 /* second.png in Resources */,
-				FAC17ADB16987628008A66A7 /* second@2x.png in Resources */,
 				FAC17ADE16987628008A66A7 /* IBViewController.xib in Resources */,
 				FAC17AE416987628008A66A7 /* BrevityViewController.xib in Resources */,
-				FAC17AEF169883A6008A66A7 /* 161-calculator.png in Resources */,
-				FABAF93A182B2BA100414FB1 /* 753-signpost.png in Resources */,
 				FAC94F2D18DE39D3002FD970 /* ScrollViewDemo.xib in Resources */,
-				FAC17AF0169883A6008A66A7 /* 161-calculator@2x.png in Resources */,
-				FA19F93916A4E3A40075D07C /* 60-signpost.png in Resources */,
-				FA73EC7217C16D940096F706 /* 22-skull-n-bones@2x.png in Resources */,
-				FA19F93A16A4E3A40075D07C /* 60-signpost@2x.png in Resources */,
 				FAAFC58316A62AC9009F26D7 /* CompositionViewController.xib in Resources */,
-				FAAFC58716A62BCE009F26D7 /* 36-toolbox.png in Resources */,
-				FAAFC58816A62BCE009F26D7 /* 36-toolbox@2x.png in Resources */,
 				FA7EE1F016AE280E009FE37C /* RelationShipViewController.xib in Resources */,
-				FA7EE1F316AE2F08009FE37C /* 76-baby.png in Resources */,
 				FA2DEBEA1804707A0087D4D9 /* RatesViewController.xib in Resources */,
-				FA7EE1F416AE2F08009FE37C /* 76-baby@2x.png in Resources */,
 				FA158FB116B417D400C2D4F6 /* VFLViewController.xib in Resources */,
-				FA158FB416B41D2300C2D4F6 /* 26-bandaid.png in Resources */,
-				FA158FB516B41D2300C2D4F6 /* 26-bandaid@2x.png in Resources */,
 				FA73EC6E17C16AC50096F706 /* KeypadXC5ViewController.xib in Resources */,
 				FA158FBA16B4255700C2D4F6 /* LayoutConstraintViewController.xib in Resources */,
-				FA158FD516B4276400C2D4F6 /* 85-trophy.png in Resources */,
-				FAA7A1EA182E8CE30015725B /* 944-walking-man.png in Resources */,
 				FA73EC7717C170CB0096F706 /* MissingConstraintViewController.xib in Resources */,
 				FAA7A1E7182E8C950015725B /* IBDemo2ViewController.xib in Resources */,
-				FAA7A1E2182E85070015725B /* 1013-hammer@2x.png in Resources */,
-				FA158FD616B4276400C2D4F6 /* 85-trophy@2x.png in Resources */,
 				FAAA895E16F9A95000B597BE /* Relationship2ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
