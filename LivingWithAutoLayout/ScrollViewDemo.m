@@ -58,10 +58,10 @@
         label.preferredMaxLayoutWidth = self.view.frame.size.width;
     }
     [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.view
-                                                          attribute:NSLayoutAttributeTrailing
+                                                          attribute:NSLayoutAttributeRight
                                                           relatedBy:NSLayoutRelationEqual
                                                              toItem:self.firstLabel
-                                                          attribute:NSLayoutAttributeTrailing
+                                                          attribute:NSLayoutAttributeRight
                                                          multiplier:1
                                                            constant:10]];
     [self.view setNeedsLayout];

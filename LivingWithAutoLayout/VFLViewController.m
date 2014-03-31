@@ -78,8 +78,12 @@
     
     // setup constraints for the buttons
     // remove ==button1 to introduce ambiguity
+    //
+    // add button1(200) to introduce a conflict
+    //
+    
     [buttonAreaView addConstraints:
-     [NSLayoutConstraint constraintsWithVisualFormat:@"|-[button1]-[button2(==button1)]-|"
+     [NSLayoutConstraint constraintsWithVisualFormat:@"|-[button1]-[button2]-|"
                                              options:NSLayoutFormatDirectionLeftToRight
                                              metrics:nil
                                             views:views]];

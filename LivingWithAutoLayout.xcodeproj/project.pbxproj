@@ -114,6 +114,115 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA511AE018E0F3DD00D58EBC /* VFL */ = {
+			isa = PBXGroup;
+			children = (
+				FA158FAD16B417D400C2D4F6 /* VFLViewController.h */,
+				FA158FAE16B417D400C2D4F6 /* VFLViewController.m */,
+				FA158FAF16B417D400C2D4F6 /* VFLViewController.xib */,
+			);
+			name = VFL;
+			sourceTree = "<group>";
+		};
+		FA511AE118E0F3EA00D58EBC /* NSLayoutConstraint */ = {
+			isa = PBXGroup;
+			children = (
+				FA158FB616B4255700C2D4F6 /* LayoutConstraintViewController.h */,
+				FA158FB716B4255700C2D4F6 /* LayoutConstraintViewController.m */,
+				FA158FB816B4255700C2D4F6 /* LayoutConstraintViewController.xib */,
+			);
+			name = NSLayoutConstraint;
+			sourceTree = "<group>";
+		};
+		FA511AE218E0F40200D58EBC /* IB */ = {
+			isa = PBXGroup;
+			children = (
+				FAA7A1D6182E836E0015725B /* IBDemoViewController.h */,
+				FAA7A1D7182E836E0015725B /* IBDemoViewController.m */,
+				FAA7A1D8182E836E0015725B /* IBDemoViewController.xib */,
+				FAA7A1E3182E8C950015725B /* IBDemo2ViewController.h */,
+				FAA7A1E4182E8C950015725B /* IBDemo2ViewController.m */,
+				FAA7A1E5182E8C950015725B /* IBDemo2ViewController.xib */,
+				FA19F93C16A4EC9C0075D07C /* IBViewController.h */,
+				FAC17ACF16987628008A66A7 /* IBViewController.m */,
+				FAC17ADC16987628008A66A7 /* IBViewController.xib */,
+			);
+			name = IB;
+			sourceTree = "<group>";
+		};
+		FA511AE318E0F41400D58EBC /* Brevity */ = {
+			isa = PBXGroup;
+			children = (
+				FAC17AD516987628008A66A7 /* BrevityViewController.h */,
+				FAC17AD616987628008A66A7 /* BrevityViewController.m */,
+				FAC17AE216987628008A66A7 /* BrevityViewController.xib */,
+			);
+			name = Brevity;
+			sourceTree = "<group>";
+		};
+		FA511AE418E0F43B00D58EBC /* Relationship */ = {
+			isa = PBXGroup;
+			children = (
+				FA7EE1EC16AE280E009FE37C /* RelationShipViewController.h */,
+				FA7EE1ED16AE280E009FE37C /* RelationShipViewController.m */,
+				FA7EE1EE16AE280E009FE37C /* RelationShipViewController.xib */,
+				FAAA895A16F9A95000B597BE /* Relationship2ViewController.h */,
+				FAAA895B16F9A95000B597BE /* Relationship2ViewController.m */,
+				FAAA895C16F9A95000B597BE /* Relationship2ViewController.xib */,
+			);
+			name = Relationship;
+			sourceTree = "<group>";
+		};
+		FA511AE518E0F44F00D58EBC /* Scrollview */ = {
+			isa = PBXGroup;
+			children = (
+				FAC94F2918DE39D3002FD970 /* ScrollViewDemo.h */,
+				FAC94F2A18DE39D3002FD970 /* ScrollViewDemo.m */,
+				FAC94F2B18DE39D3002FD970 /* ScrollViewDemo.xib */,
+			);
+			name = Scrollview;
+			sourceTree = "<group>";
+		};
+		FA511AE618E0F45D00D58EBC /* XC5 */ = {
+			isa = PBXGroup;
+			children = (
+				FA73EC6A17C16AC50096F706 /* KeypadXC5ViewController.h */,
+				FA73EC6B17C16AC50096F706 /* KeypadXC5ViewController.m */,
+				FA73EC6C17C16AC50096F706 /* KeypadXC5ViewController.xib */,
+			);
+			name = XC5;
+			sourceTree = "<group>";
+		};
+		FA511AE718E0F46A00D58EBC /* Composition */ = {
+			isa = PBXGroup;
+			children = (
+				FAAFC57F16A62AC9009F26D7 /* CompositionViewController.h */,
+				FAAFC58016A62AC9009F26D7 /* CompositionViewController.m */,
+				FAAFC58116A62AC9009F26D7 /* CompositionViewController.xib */,
+			);
+			name = Composition;
+			sourceTree = "<group>";
+		};
+		FA511AE818E0F48100D58EBC /* MissingConstraint */ = {
+			isa = PBXGroup;
+			children = (
+				FA73EC7317C170CB0096F706 /* MissingConstraintViewController.h */,
+				FA73EC7417C170CB0096F706 /* MissingConstraintViewController.m */,
+				FA73EC7517C170CB0096F706 /* MissingConstraintViewController.xib */,
+			);
+			name = MissingConstraint;
+			sourceTree = "<group>";
+		};
+		FA511AE918E0F49500D58EBC /* Rates */ = {
+			isa = PBXGroup;
+			children = (
+				FA2DEBE61804707A0087D4D9 /* RatesViewController.h */,
+				FA2DEBE71804707A0087D4D9 /* RatesViewController.m */,
+				FA2DEBE81804707A0087D4D9 /* RatesViewController.xib */,
+			);
+			name = Rates;
+			sourceTree = "<group>";
+		};
 		FAC17AA716987628008A66A7 = {
 			isa = PBXGroup;
 			children = (
@@ -144,52 +253,23 @@
 		FAC17ABC16987628008A66A7 /* LivingWithAutoLayout */ = {
 			isa = PBXGroup;
 			children = (
-				FAC17AF11698C429008A66A7 /* images */,
+				FAC94F3618DE70CD002FD970 /* Media.xcassets */,
 				FAC17AC516987628008A66A7 /* AppDelegate.h */,
 				FAC17AC616987628008A66A7 /* AppDelegate.m */,
-				FA158FAD16B417D400C2D4F6 /* VFLViewController.h */,
-				FA158FAE16B417D400C2D4F6 /* VFLViewController.m */,
-				FA158FAF16B417D400C2D4F6 /* VFLViewController.xib */,
-				FA158FB616B4255700C2D4F6 /* LayoutConstraintViewController.h */,
-				FA158FB716B4255700C2D4F6 /* LayoutConstraintViewController.m */,
-				FA158FB816B4255700C2D4F6 /* LayoutConstraintViewController.xib */,
-				FAA7A1D6182E836E0015725B /* IBDemoViewController.h */,
-				FAA7A1D7182E836E0015725B /* IBDemoViewController.m */,
-				FAA7A1D8182E836E0015725B /* IBDemoViewController.xib */,
-				FA73EC6A17C16AC50096F706 /* KeypadXC5ViewController.h */,
-				FA73EC6B17C16AC50096F706 /* KeypadXC5ViewController.m */,
-				FA73EC6C17C16AC50096F706 /* KeypadXC5ViewController.xib */,
-				FAA7A1E3182E8C950015725B /* IBDemo2ViewController.h */,
-				FAA7A1E4182E8C950015725B /* IBDemo2ViewController.m */,
-				FAA7A1E5182E8C950015725B /* IBDemo2ViewController.xib */,
-				FA2DEBE61804707A0087D4D9 /* RatesViewController.h */,
-				FA2DEBE71804707A0087D4D9 /* RatesViewController.m */,
-				FA2DEBE81804707A0087D4D9 /* RatesViewController.xib */,
-				FAC17AD516987628008A66A7 /* BrevityViewController.h */,
-				FAC17AD616987628008A66A7 /* BrevityViewController.m */,
-				FAC17AE216987628008A66A7 /* BrevityViewController.xib */,
-				FAAFC57F16A62AC9009F26D7 /* CompositionViewController.h */,
-				FAAFC58016A62AC9009F26D7 /* CompositionViewController.m */,
-				FAAFC58116A62AC9009F26D7 /* CompositionViewController.xib */,
-				FA19F93C16A4EC9C0075D07C /* IBViewController.h */,
-				FAC17ACF16987628008A66A7 /* IBViewController.m */,
-				FAC17ADC16987628008A66A7 /* IBViewController.xib */,
-				FA7EE1EC16AE280E009FE37C /* RelationShipViewController.h */,
-				FA7EE1ED16AE280E009FE37C /* RelationShipViewController.m */,
-				FA7EE1EE16AE280E009FE37C /* RelationShipViewController.xib */,
-				FAAA895A16F9A95000B597BE /* Relationship2ViewController.h */,
-				FAAA895B16F9A95000B597BE /* Relationship2ViewController.m */,
-				FAAA895C16F9A95000B597BE /* Relationship2ViewController.xib */,
+				FA511AE318E0F41400D58EBC /* Brevity */,
+				FA511AE718E0F46A00D58EBC /* Composition */,
+				FA511AE118E0F3EA00D58EBC /* NSLayoutConstraint */,
+				FA511AE218E0F40200D58EBC /* IB */,
+				FA511AE818E0F48100D58EBC /* MissingConstraint */,
+				FA511AE918E0F49500D58EBC /* Rates */,
+				FA511AE418E0F43B00D58EBC /* Relationship */,
+				FA511AE518E0F44F00D58EBC /* Scrollview */,
+				FA511AE018E0F3DD00D58EBC /* VFL */,
+				FA511AE618E0F45D00D58EBC /* XC5 */,
 				FAAFC58916A62CC8009F26D7 /* UIView+ConstraintHelpers.h */,
 				FAAFC58A16A62CC8009F26D7 /* UIView+ConstraintHelpers.m */,
 				FAC17ABD16987628008A66A7 /* Supporting Files */,
 				FA7DA75A17A460180079A625 /* KeypadView.xib */,
-				FA73EC7317C170CB0096F706 /* MissingConstraintViewController.h */,
-				FA73EC7417C170CB0096F706 /* MissingConstraintViewController.m */,
-				FA73EC7517C170CB0096F706 /* MissingConstraintViewController.xib */,
-				FAC94F2918DE39D3002FD970 /* ScrollViewDemo.h */,
-				FAC94F2A18DE39D3002FD970 /* ScrollViewDemo.m */,
-				FAC94F2B18DE39D3002FD970 /* ScrollViewDemo.xib */,
 			);
 			path = LivingWithAutoLayout;
 			sourceTree = "<group>";
@@ -203,14 +283,6 @@
 				FAC17AC416987628008A66A7 /* LivingWithAutoLayout-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		FAC17AF11698C429008A66A7 /* images */ = {
-			isa = PBXGroup;
-			children = (
-				FAC94F3618DE70CD002FD970 /* Media.xcassets */,
-			);
-			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -394,6 +466,8 @@
 		FAC17AEB16987628008A66A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LivingWithAutoLayout/LivingWithAutoLayout-Prefix.pch";
 				INFOPLIST_FILE = "LivingWithAutoLayout/LivingWithAutoLayout-Info.plist";
@@ -406,6 +480,8 @@
 		FAC17AEC16987628008A66A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LivingWithAutoLayout/LivingWithAutoLayout-Prefix.pch";
 				INFOPLIST_FILE = "LivingWithAutoLayout/LivingWithAutoLayout-Info.plist";
